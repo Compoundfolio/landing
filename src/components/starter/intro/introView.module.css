@@ -1,0 +1,7 @@
+.counter-wrapper {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 100vh;
+}

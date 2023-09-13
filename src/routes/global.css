@@ -2,6 +2,10 @@ html, body, main {
   background-color: #0F1112;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .centered {
   display: flex;
   flex-direction: column;

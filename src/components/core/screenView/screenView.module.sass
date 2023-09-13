@@ -1,0 +1,27 @@
+.screenView
+  perspective: 1px
+  transform-style: preserve-3d
+  height: 100vh
+  overflow-x: hidden
+  overflow-y: scroll
+
+.screenView__paralaxContainer
+  display: flex
+  flex: 1 0 auto
+  justify-content: center
+  position: relative
+  height: 100vh
+  transform: translateZ(-1px) scale(2)
+  z-index: -1
+  text-align: center
+
+.content
+  height: 100vh
+  display: block
+  position: relative
+  background-color: white
+  z-index: 1
+  text-align: center
+  color: white
+  background-color: #222
+  font-family: 'Montserrat', sans-serif

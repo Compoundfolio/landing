@@ -1,12 +1,12 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 
-import IntroView from "~/components/starter/intro/introView";
+import ScreenView from '~/components/core/screenView/screenView';
 
 export default component$(() => {
   return (
     <>
-      <IntroView />
+      <ScreenView />
     </>
   );
 });

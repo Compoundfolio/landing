@@ -1,25 +1,30 @@
 import { component$ } from '@builder.io/qwik'
+import FeatureWrapper from '~/components/core/featureWrapper/featureWrapper'
+import styles from "./numbers.module.css"
 
 export default component$(() => {
   return (
-    <div class="centered">
-      <p>Numbers</p>
-      <h1>Track assets from over 70 stock exchanges from all over the world</h1>
-      <div>
-        <div>
-          <span>30+</span>
-          <span>years of historical data</span>
+    <FeatureWrapper
+      shortTitle="Numbers"
+      title="Track assets from over 70 stock exchanges from all over the world"
+      ctaButtonTitle="Start tracking assets"
+      // TODO: maxWidth property ...
+    >
+      <div class={styles.numbers}>
+        <div class={styles.numbers__item}>
+          <span class={styles.numbers__item_number}>30+</span>
+          <span class={styles.numbers__item_description}>years of historical data</span>
         </div>
-        <div>
-          <span>150K+</span>
-          <span>tickers to search for</span>
+        <div class={styles.numbers__item}>
+          <span class={styles.numbers__item_number}>150K+</span>
+          <span class={styles.numbers__item_description}>tickers to search for</span>
         </div>
-        <div>
-          <span>20K+</span>
-          <span>ETFs</span>
+        <div class={styles.numbers__item}>
+          <span class={styles.numbers__item_number}>20K+</span>
+          <span class={styles.numbers__item_description}>ETFs</span>
         </div>
       </div>
-      <button>Start tracking assets</button>
-    </div>
+    </FeatureWrapper>
+
   )
 })

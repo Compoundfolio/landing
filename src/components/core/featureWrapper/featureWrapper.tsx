@@ -27,7 +27,7 @@ export default component$(({
         <Slot />
         {replacesText && (
           <em class={style.feature_description}>
-            <b>Replaces: </b>{replacesText}
+            <b>REPLACES: </b>{replacesText}
           </em>
         )}
       </div>

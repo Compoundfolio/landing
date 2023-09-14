@@ -1,5 +1,6 @@
 html, body, main {
   background-color: #0F1112;
+  font-family: "Montserrat", sans-serif;
 }
 
 html {
@@ -12,4 +13,16 @@ html {
   justify-content: center;
   align-items: center;
   gap: 24px;
+}
+
+b {
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+}
+
+button {
+  cursor: pointer;
 }/*# sourceMappingURL=global.css.map */

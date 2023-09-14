@@ -1,0 +1,6 @@
+.coreFeatures_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+}/*# sourceMappingURL=coreFeatures.module.css.map */

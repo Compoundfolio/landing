@@ -2,6 +2,54 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
+  justify-content: start;
+  height: inherit;
 }
+
+.globe {
+  position: absolute;
+  right: 0;
+  top: 32px;
+  z-index: -1;
+}
+
+.heroTitle {
+  text-align: center;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 106%;
+  letter-spacing: -1.44px;
+  margin-top: 72px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  margin-top: 24px;
+}
+
+.hero_subTitle {
+  color: #C4C4C4;
+  text-align: center;
+  text-shadow: 0px 4px 4px #0F6F72;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 138%;
+  letter-spacing: -0.44px;
+}
+
+.hero_ctaButton {
+  border-radius: 8px;
+  border: 1px solid var(--border-lighter, rgba(255, 255, 255, 0.14));
+  background: linear-gradient(90deg, #0F6F72 0%, #FFD390 96.87%);
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
+  padding: 8px 20px;
+  height: 65px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 72px;
+}/*# sourceMappingURL=introView.module.css.map */

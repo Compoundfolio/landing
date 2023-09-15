@@ -1,5 +1,8 @@
 html, body, main {
   background-color: #0F1112;
+}
+
+*:not(.raw-HTML) {
   font-family: "Montserrat", sans-serif;
 }
 

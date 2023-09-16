@@ -1,0 +1,14 @@
+.globe > #globe {
+  opacity: 0.25;
+}
+
+.changeTitle {
+  color: #FAFAFA;
+  font-family: Chakra Petch;
+  font-size: 135px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 1.755px;
+  width: 100vw;
+  text-align: center;
+}/*# sourceMappingURL=getStarted.module.css.map */

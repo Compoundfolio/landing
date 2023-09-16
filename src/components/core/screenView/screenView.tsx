@@ -15,7 +15,7 @@ export default component$(() => {
       <div class={styles.screenView__paralaxContainer} id="intro">
         <IntroView />
       </div>
-      <div class={styles.content} id="askYourself">
+      <div class={styles} id="askYourself">
         <AskYourself />
       </div>
       <div class={styles.screenView__paralaxContainer} id="getStarted">

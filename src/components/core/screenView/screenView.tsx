@@ -12,25 +12,25 @@ import Faq from "~/components/starter/faq/faq";
 export default component$(() => {
   return <>
     <main class={styles.screenView}>
-      <div class={styles.screenView__paralaxContainer} id="intro">
+      <div class={styles.content} id="intro">
         <IntroView />
       </div>
-      <div class={styles} id="askYourself">
+      <div class={styles.screenView__paralaxContainer} id="askYourself">
         <AskYourself />
       </div>
-      <div class={styles.screenView__paralaxContainer} id="getStarted">
+      <div class={styles.content} id="getStarted">
         <GetStarted />
       </div>
-      <div class={styles.content} id="visualizations">
+      <div class={styles.screenView__paralaxContainer} id="visualizations">
         <Visualizations />
       </div>
       <div class={styles.screenView__paralaxContainer} id="coreFeatures">
         <CoreFeatures />
       </div>
-      <div class={styles.content} id="featureWall">
+      <div class={styles.screenView__paralaxContainer} id="featureWall">
         <FeatureWall />
       </div>
-      <div class={styles.screenView__paralaxContainer} id="numbers">
+      <div class={styles.content} id="numbers">
         <Numbers />
       </div>
       <div class={styles.content} id="faq">

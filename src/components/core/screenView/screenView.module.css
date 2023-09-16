@@ -4,13 +4,13 @@
   height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
+  position: relative;
 }
 
 .screenView__paralaxContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   height: 200vh;
   transform: translateZ(-1px) scale(2);
   padding: 64px;
@@ -22,7 +22,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   z-index: 1;
   color: white;
   padding: 64px;

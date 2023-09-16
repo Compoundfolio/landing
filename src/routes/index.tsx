@@ -9,6 +9,7 @@ export default component$(() => {
     <>
       <NavMenu />
       <ScreenView />
+      
     </>
   );
 });

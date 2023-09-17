@@ -12,7 +12,7 @@ export default component$(() => {
         replacesText="Sheets, Brokerage apps, The Dividend Tracker"
         ctaButtonTitle="Try charts in action"
       >
-        <div class={styles.container}>
+        <div class={[styles.container, "screenViewContentMaxWidth"]}>
           <svg width="662" height="358" viewBox="0 0 662 358" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <rect x="2" y="30" width="329" height="28" fill="#FFD391" fill-opacity="0.5" />
             <rect x="6" y="34" width="16" height="16" fill="url(#pattern0)" />

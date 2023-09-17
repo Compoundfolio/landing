@@ -9,7 +9,7 @@ export default component$(() => {
       shortTitle="Feature wall"
       title="Asset management have never been that easy"
     >
-      <section class={styles.featureWall}>
+      <section class={[styles.featureWall, "screenViewContentMaxWidth"]}>
         {FEATURE_WALL_BRICKS.map(({ title, description }) => (
           <div key={title} class={styles.featureWall__item}>
             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -8,7 +8,6 @@ export default component$(() => {
       shortTitle="Numbers"
       title="Track assets from over 70 stock exchanges from all over the world"
       ctaButtonTitle="Start tracking assets"
-      // TODO: maxWidth property ...
     >
       <div class={styles.numbers}>
         <div class={styles.numbers__item}>

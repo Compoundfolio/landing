@@ -28,4 +28,8 @@ em {
 
 button {
   cursor: pointer;
+}
+
+.gap-16px {
+  gap: 16px;
 }/*# sourceMappingURL=global.css.map */

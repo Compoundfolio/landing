@@ -24,8 +24,10 @@
   letter-spacing: -0.72px;
   background: linear-gradient(179deg, #FFF 0.64%, rgba(255, 255, 255, 0.38) 105.75%);
   background-clip: text;
+  text-align: center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  white-space: pre-wrap;
 }
 
 .feature_description {
@@ -33,6 +35,7 @@
   text-align: center;
   font-size: 18px;
   font-weight: 400;
+  white-space: pre-wrap;
 }
 
 em.feature_description > b {

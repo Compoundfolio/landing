@@ -7,8 +7,8 @@ export default component$(() => {
     <div class="centered">
       <FeatureWrapper
         shortTitle="Visualizations"
-        title="Feel the power of advanced data visualization"
-        description="See your investment data by different angles with broad variation of charts"
+        title={`Feel the power of \n advanced data visualization`}
+        description={`See your investment data \n by different angles with broad variation of charts`}
         replacesText="Sheets, Brokerage apps, The Dividend Tracker"
         ctaButtonTitle="Try charts in action"
       >

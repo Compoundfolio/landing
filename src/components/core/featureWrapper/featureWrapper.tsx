@@ -19,7 +19,7 @@ export default component$(({
   return (
     <article class={style.feature}>
       <p class={style.feature_shortTitle}>{shortTitle}</p>
-      <div class="centered">
+      <div class="centered gap-16px">
         <h2 class={style.feature_title}>{title}</h2>
         {description && <span class={style.feature_description}>{description}</span>}
       </div>

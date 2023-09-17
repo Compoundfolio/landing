@@ -8,6 +8,7 @@ import CoreFeatures from "~/components/starter/coreFeatures/coreFeatures";
 import FeatureWall from "~/components/starter/featureWall/featureWall";
 import Numbers from "~/components/starter/numbers/numbers";
 import Faq from "~/components/starter/faq/faq";
+import Customize from "~/components/starter/customize/customize";
 
 export default component$(() => {
   return <>
@@ -26,6 +27,9 @@ export default component$(() => {
       </div>
       <div class={styles.screenView__paralaxContainer} id="coreFeatures">
         <CoreFeatures />
+      </div>
+      <div class={styles.screenView__paralaxContainer} id="coreFeatures">
+        <Customize />
       </div>
       <div class={styles.screenView__paralaxContainer} id="featureWall">
         <FeatureWall />

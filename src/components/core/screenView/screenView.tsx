@@ -9,10 +9,12 @@ import FeatureWall from "~/components/starter/featureWall/featureWall";
 import Numbers from "~/components/starter/numbers/numbers";
 import Faq from "~/components/starter/faq/faq";
 import Customize from "~/components/starter/customize/customize";
+import Footer from "~/components/starter/footer/footer";
 
 export default component$(() => {
   return <>
     <main class={styles.screenView}>
+      <Footer />
       <div class={styles.content} id="intro">
         <IntroView />
       </div>

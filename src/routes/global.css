@@ -30,10 +30,38 @@ button {
   cursor: pointer;
 }
 
+.screenViewContentMaxWidth {
+  max-width: calc(100vw - 256px) !important;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
 .gap-16px {
   gap: 16px;
 }
 
-.screenViewContentMaxWidth {
-  max-width: calc(100vw - 256px) !important;
+.gap-32px {
+  gap: 16px;
+}
+
+.gap-72px {
+  gap: 72px;
 }/*# sourceMappingURL=global.css.map */

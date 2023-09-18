@@ -6,10 +6,10 @@ export default component$(() => {
   return (
     <FeatureWrapper
       shortTitle="Numbers"
-      title="Track assets from over 70 stock exchanges from all over the world"
+      title={"Track assets from over 70 stock exchanges \n from all over the world"}
       ctaButtonTitle="Start tracking assets"
     >
-      <div class={styles.numbers}>
+      <div class={[styles.numbers, "gap-72px"]}>
         <div class={styles.numbers__item}>
           <span class={styles.numbers__item_number}>30+</span>
           <span class={styles.numbers__item_description}>years of historical data</span>

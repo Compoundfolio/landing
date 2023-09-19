@@ -14,7 +14,6 @@ import Footer from "~/components/starter/footer/footer";
 export default component$(() => {
   return <>
     <main class={styles.screenView}>
-      <Footer />
       <div class={styles.content} id="intro">
         <IntroView />
       </div>
@@ -42,6 +41,7 @@ export default component$(() => {
       <div class={styles.content} id="faq">
         <Faq />
       </div>
+      <Footer />
     </main>
   </>
 })

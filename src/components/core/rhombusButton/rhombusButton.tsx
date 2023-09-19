@@ -19,15 +19,13 @@ export default component$(() => {
       const magnetButton = event.currentTarget
       const bounding = magnetButton.getBoundingClientRect()
 
-      //console.log(magnetButton, bounding)
-
       gsap.to(magnetButton, 1, {
         x: (((event.clientX - bounding.left) / magnetButton.offsetWidth) - 0.5) * strength,
         y: (((event.clientY - bounding.top) / magnetButton.offsetHeight) - 0.5) * strength,
         ease: "power4.out"
       })
 
-      //magnetButton.style.transform = 'translate(' + (((( event.clientX - bounding.left)/(magnetButton.offsetWidth))) - 0.5) * strength + 'px,'+ (((( event.clientY - bounding.top)/(magnetButton.offsetHeight))) - 0.5) * strength + 'px)';
+      magnetButton.style.transform = 'translate(' + (((( event.clientX - bounding.left)/(magnetButton.offsetWidth))) - 0.5) * strength + 'px,'+ (((( event.clientY - bounding.top)/(magnetButton.offsetHeight))) - 0.5) * strength + 'px)';
     }
 
   })
@@ -46,6 +44,10 @@ export default component$(() => {
           </defs>
         </svg>
       </button>
+      <div class={[styles.magnetic_titleArea, "flex flex-col gap-8px"]}>
+        <span class={styles.magnetic_titleArea_subTitle}>Take control under your investments!</span>
+        <span class={styles.magnetic_titleArea_title}>Create portfolio!</span>
+      </div>
     </div>
   )
 })

@@ -1,0 +1,81 @@
+.content
+  width: 80%
+  padding: 0
+  margin: 0 auto
+
+b
+  color: rgba(255, 255, 255, 0.50)
+  margin-right: 72px
+  width: 80px
+  min-width: 80px
+  display: inline-block
+  font-size: 16px
+  font-style: normal
+  font-weight: 600
+  line-height: 106%
+  letter-spacing: -0.32px
+  text-decoration-line: underline
+
+span
+  color: rgba(255, 255, 255, 0.50)
+
+.question
+  position: relative
+  margin: 0
+  padding: 32px
+  display: block
+  width:100%
+  cursor: pointer
+  font-size: 14px
+  font-weight: 600
+  line-height: 106%
+  letter-spacing: -0.28px
+  color: rgba(255, 255, 255, 0.50)
+
+.faq_item:hover
+  background: rgba(0, 0, 0, 0.1)
+  border-radius: 8px
+
+.answers
+  display: flex
+  padding: 0px 32px
+  width: 100%!important
+  height: 0
+  overflow: hidden
+  z-index: -1
+  position: relative
+  opacity: 0
+  transition: .15s ease
+  font-size: 14px
+  font-style: normal
+  font-weight: 500
+  line-height: 150%
+  letter-spacing: -0.28px
+  color: #fff
+
+.questions:checked ~ .answers
+  height: auto
+  opacity: 1
+  padding: 15px 32px
+
+.questions:checked ~ .question,
+.questions:checked ~ .answers,
+.questions:checked ~ .question b,
+.questions:checked ~ .answers b,
+.questions:checked ~ .question span,
+.questions:checked ~ .answers span
+  color: #fff !important
+
+.questions
+  display: none
+
+.faq_title
+  font-size: 36px
+  font-style: normal
+  font-weight: 500
+  line-height: 106%
+  letter-spacing: -0.72px
+  background: linear-gradient(179deg, #FFF 0.64%, rgba(255, 255, 255, 0.38) 105.75%)
+  background-clip: text
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent

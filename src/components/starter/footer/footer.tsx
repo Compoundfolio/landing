@@ -1,6 +1,7 @@
 import { component$ } from '@builder.io/qwik';
 import styles from './footer.module.css'
 import { FOOTER_APP_STRENGTH } from './config';
+import RhombusButton from '~/components/core/rhombusButton/rhombusButton';
 
 export default component$(() => {
   return (
@@ -89,7 +90,7 @@ export default component$(() => {
                 </span>
               </div>
             </div>
-            <div>lol</div>
+            <RhombusButton />
           </div>
           <div class={styles.footer_top_lowLvlWrapper}>
             {FOOTER_APP_STRENGTH.map(({ title, description }) => (

@@ -6,10 +6,10 @@ export default component$(() => {
   useStyles$(styles);
 
   return (
-    <div class="flex gap-96px screenViewContentMaxWidth">
-      <div class="flex flex-col gap-96px">
+    <div class="flex gap-32px screenViewContentMaxWidth">
+      <div class="flex flex-col">
         <h1 class="faq_title">Frequently Asked Questions</h1>
-        <svg width="748" height="794" viewBox="0 0 748 794" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg class="faq_wtfIcon" width="748" height="794" viewBox="0 0 748 794" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g filter="url(#filter0_f_848_10116)">
             <path d="M211.134 429.52C205.01 429.52 201.838 422.21 206.023 417.738L403.496 206.654C408.487 201.319 417.287 206.235 415.36 213.282L376.418 355.736C375.201 360.189 378.553 364.581 383.17 364.581H536.866C542.99 364.581 546.162 371.891 541.978 376.364L344.504 587.448C339.513 592.782 330.713 587.866 332.64 580.82L371.582 438.366C372.799 433.912 369.447 429.52 364.83 429.52H211.134Z" fill="#FFD391" />
           </g>
@@ -36,10 +36,10 @@ export default component$(() => {
           </defs>
         </svg>
       </div>
-      <section class="content">
+      <form class="content">
         {FAQ_LIST.map(({ question, answer }, index) => (
           <article key={index} class="faq_item">
-            <input type="checkbox" id={`${index}`} name="q" class="questions" />
+            <input type="radio" id={`${index}`} name="q" class="questions" />
             <label for={`${index}`} class="question">
               <b>QUESTION:</b> <span>{question}</span>
             </label>
@@ -48,7 +48,7 @@ export default component$(() => {
             </div>
           </article>
         ))}
-      </section>
+      </form>
     </div>
   )
 })

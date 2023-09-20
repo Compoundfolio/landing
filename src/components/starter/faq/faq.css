@@ -27,14 +27,24 @@ span {
   position: relative;
   margin: 0;
   padding: 32px;
-  display: block;
+  display: flex;
   width: 100%;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   line-height: 106%;
   letter-spacing: -0.28px;
   color: rgba(255, 255, 255, 0.5);
+}
+
+.faq_wtfIcon {
+  width: 25vw !important;
+  height: 25vw !important;
+  align-self: center;
+}
+
+.faq_item {
+  width: 100%;
 }
 
 .faq_item:hover {
@@ -89,4 +99,8 @@ span {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 24px;
 }/*# sourceMappingURL=faq.css.map */

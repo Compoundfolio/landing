@@ -10,25 +10,18 @@
   cursor: pointer
   border-bottom: 0
 
-.rhombusButton_icon
-  transform: rotate(-45deg)
-
 .magnetic
   margin: -100px
   padding: 100px
   display: inline-block
   border-radius: 50%
-  /*border: 1px solid #000; //use this for debugging*/
+  transition: 1s ease-in-out box-shadow
 
 .myButton
   cursor: pointer
-
-
-.myButton:hover
-  color: #FFF
-  background-color: #000
-  transition: 0.5s background-color, 0.5s box-shadow
-  box-shadow: 0px 2px 25px rgba(0,0,0,0.5)
+  box-shadow: 0px 2px 25px #00000000
+  transition: 0.5s box-shadow
+  animation: pulse 2s infinite
 
 .magnetic_titleArea
   margin-top: 0px
@@ -51,3 +44,50 @@
   line-height: 100%
   letter-spacing: 0.312px
 
+.rhombusButton_icon
+  background: linear-gradient(to right, #ffd390, #0F6F72)
+  background-size: 200% 200%
+  animation: rainbow 2s ease-in-out infinite
+  background-clip: text
+  -webkit-background-clip: text
+  color: white
+  font-size: 20px
+  display: block
+  text-align: center
+  transform: rotate(-45deg)
+  transition: color 2s
+  text-transform: uppercase
+  margin-right: 4px
+
+.magnetic:hover
+  .rhombusButton_icon
+    color: rgba(0,0,0,0)
+  .myButton
+    transition: 2s linear
+    box-shadow: 0px 2px 10px #ffd39013
+    animation: none !important
+
+.myButton:hover
+  box-shadow: 0px 0px 15px #ffd3908a !important
+  animation: none !important
+  .rhombusButton_icon
+    color: white !important
+
+.rhombusButton_icon:hover
+  color: white !important
+
+@keyframes rainbow
+  0%
+    background-position: left
+  50%
+    background-position: right
+  100%
+    background-position: left
+
+@keyframes pulse
+  0%
+    box-shadow: 0 0 0 0 rgba(255, 211, 144, 0.4)
+  70%
+    box-shadow: 0 0 0 10px rgba(204,169,44, 0)
+  100%
+    box-shadow: 0 0 0 0 rgba(204,169,44, 0)

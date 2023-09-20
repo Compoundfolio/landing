@@ -33,7 +33,7 @@ export default component$(() => {
   return (
     <div class={styles.magnetic} id="magnetic">
       <button class={[styles.rhombusButton, styles.myButton]}>
-        <svg class={styles.rhombusButton_icon} xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+        {/* <svg class={styles.rhombusButton_icon} xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
           <g clip-path="url(#clip0_854_10267)">
             <path d="M14.25 9.74976H9.75V14.2498H8.25V9.74976H3.75V8.24976H8.25V3.74976H9.75V8.24976H14.25V9.74976Z" fill="white" />
           </g>
@@ -42,7 +42,8 @@ export default component$(() => {
               <rect width="18" height="18" fill="white" transform="translate(0 -0.000244141)" />
             </clipPath>
           </defs>
-        </svg>
+        </svg> */}
+        <aside class={styles.rhombusButton_icon}>+</aside>
       </button>
       <div class={[styles.magnetic_titleArea, "flex flex-col gap-8px"]}>
         <span class={styles.magnetic_titleArea_subTitle}>Take control under your investments!</span>

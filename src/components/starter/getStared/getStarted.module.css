@@ -3,12 +3,31 @@
 }
 
 .changeTitle {
-  color: #FAFAFA;
   font-family: Chakra Petch;
-  font-size: 135px;
-  font-weight: 400;
+  font-size: 98px;
+  font-style: italic;
+  font-weight: 700;
   line-height: 100%;
-  letter-spacing: 1.755px;
-  width: 100vw;
+  letter-spacing: 1.066px;
   text-align: center;
+  background: linear-gradient(180deg, rgba(255, 211, 144, 0.5) 0%, rgba(15, 111, 114, 0.02) 87.5%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -48px;
+}
+
+.getStarted_bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300 !important;
+  height: 300 !important;
+}
+
+.getStarted_ctaButton {
+  position: absolute;
+  left: 436px;
+  bottom: 152px;
+  z-index: 999;
 }/*# sourceMappingURL=getStarted.module.css.map */

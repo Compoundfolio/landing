@@ -52,4 +52,13 @@
   font-weight: 600;
   color: #fff;
   margin-bottom: 72px;
+}
+
+.heroBg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: auto !important;
+  height: auto !important;
+  z-index: -2;
 }/*# sourceMappingURL=introView.module.css.map */

@@ -1,18 +1,18 @@
-import { component$, useVisibleTask$ } from '@builder.io/qwik';
+import { component$, useId, useVisibleTask$ } from '@builder.io/qwik';
 import styles from "./rhombusButton.module.css"
 import { gsap } from "gsap"
 
 export default component$(() => {
 
+  const magneticButtonUniqueId = useId()
+
   useVisibleTask$(() => {
-    const magnets = document.querySelectorAll('#magnetic')
+    const magnet = document.querySelector(`#${magneticButtonUniqueId}`)
     const strength = 50
 
-    magnets.forEach((magnet) => {
-      magnet.addEventListener('mousemove', moveMagnet);
-      magnet.addEventListener('mouseout', function (event) {
-        gsap.to(event.currentTarget, 1, { x: 0, y: 0, ease: "power4.out" })
-      });
+    magnet?.addEventListener('mousemove', moveMagnet);
+    magnet?.addEventListener('mouseout', function (event) {
+      gsap.to(event.currentTarget, 1, { x: 0, y: 0, ease: "power4.out" })
     });
 
     function moveMagnet(event: any) {
@@ -25,25 +25,14 @@ export default component$(() => {
         ease: "power4.out"
       })
 
-      magnetButton.style.transform = 'translate(' + (((( event.clientX - bounding.left)/(magnetButton.offsetWidth))) - 0.5) * strength + 'px,'+ (((( event.clientY - bounding.top)/(magnetButton.offsetHeight))) - 0.5) * strength + 'px)';
+      magnetButton.style.transform = 'translate(' + ((((event.clientX - bounding.left) / (magnetButton.offsetWidth))) - 0.5) * strength + 'px,' + ((((event.clientY - bounding.top) / (magnetButton.offsetHeight))) - 0.5) * strength + 'px)';
     }
-
   })
 
   return (
-    <div class={styles.magnetic} id="magnetic">
+    <div class={styles.magnetic} id={magneticButtonUniqueId}>
       <button class={[styles.rhombusButton, styles.myButton]}>
-        {/* <svg class={styles.rhombusButton_icon} xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-          <g clip-path="url(#clip0_854_10267)">
-            <path d="M14.25 9.74976H9.75V14.2498H8.25V9.74976H3.75V8.24976H8.25V3.74976H9.75V8.24976H14.25V9.74976Z" fill="white" />
-          </g>
-          <defs>
-            <clipPath id="clip0_854_10267">
-              <rect width="18" height="18" fill="white" transform="translate(0 -0.000244141)" />
-            </clipPath>
-          </defs>
-        </svg> */}
-        <aside class={styles.rhombusButton_icon}>+</aside>
+        <span class={styles.rhombusButton_icon}>+</span>
       </button>
       <div class={[styles.magnetic_titleArea, "flex flex-col gap-8px"]}>
         <span class={styles.magnetic_titleArea_subTitle}>Take control under your investments!</span>

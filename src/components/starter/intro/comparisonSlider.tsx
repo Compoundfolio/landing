@@ -1,5 +1,7 @@
 import { component$, useStyles$, $ } from "@builder.io/qwik";
 import styles from "./comparisonSlider.css?inline";
+import ImgExcelpng from "./img/excel.png?jsx";
+import ImgComppng from "./img/1.png?jsx";
 
 export default component$(() => {
   useStyles$(styles);
@@ -152,6 +154,18 @@ export default component$(() => {
           </linearGradient>
         </defs>
       </svg>
+      <ImgComppng
+        class="beforeLogo"
+        decoding="async"
+        loading="lazy"
+        alt="Compoundfolio logo"
+      />
+      <ImgExcelpng
+        class="afterLogo"
+        decoding="async"
+        loading="lazy"
+        alt="Compoundfolio logo"
+      />
     </section>
   );
 });

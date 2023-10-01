@@ -1,7 +1,7 @@
 import { component$, useStyles$, $ } from "@builder.io/qwik";
 import styles from "./comparisonSlider.css?inline";
 import ImgExcelpng from "./img/excel.png?jsx";
-import ImgComppng from "./img/1.png?jsx";
+import ImgComppng from "./img/compoundPower.png?jsx";
 
 export default component$(() => {
   useStyles$(styles);

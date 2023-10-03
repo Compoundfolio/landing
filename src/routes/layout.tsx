@@ -1,19 +1,9 @@
-import {
-  component$,
-  Slot,
-  useStyles$,
-  useVisibleTask$,
-} from "@builder.io/qwik";
+import { component$, Slot, useStyles$ } from "@builder.io/qwik";
 import { routeLoader$ } from "@builder.io/qwik-city";
 import type { RequestHandler } from "@builder.io/qwik-city";
 
 import resetStyles from "./reset.css?inline";
 import globalStyles from "./global.css?inline";
-import gsap from "gsap";
-import { ScrollTrigger, ScrollSmoother } from "gsap/all";
-// import ScrollTrigger from "gsap/ScrollTrigger";
-// import { ScrollSmoother } from "gsap-trial/all";
-// import { ScrollSmoother } from "gsap/ScrollSmoother";
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   // Control caching for this request for best performance and to reduce hosting costs:
@@ -35,18 +25,6 @@ export const useServerTimeLoader = routeLoader$(() => {
 export default component$(() => {
   useStyles$(resetStyles);
   useStyles$(globalStyles);
-
-  useVisibleTask$(() => {
-    if (typeof window !== "undefined") {
-      gsap.registerPlugin(ScrollTrigger);
-      gsap.registerPlugin(_ScrollSmoother);
-
-      // ScrollSmoother.create({
-      //   smooth: 1, // seconds it takes to "catch up" to native scroll position
-      //   effects: true,
-      // });
-    }
-  });
 
   return (
     <>

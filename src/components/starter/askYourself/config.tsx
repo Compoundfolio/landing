@@ -1,3 +1,8 @@
+import Excel from "./img/excel.png?jsx";
+import Brokerages from "./img/brokerages.png?jsx";
+import Competitors from "./img/competitors.png?jsx";
+import styles from "./askYourself.module.css";
+
 export const COMPETITORS_DESTROY = [
   {
     title: "Spreadsheets",
@@ -8,6 +13,7 @@ export const COMPETITORS_DESTROY = [
       "Hard to automate",
       "Google spies your data",
     ],
+    imgPreview: <Excel class={styles.ask__item_competitorImage} />,
   },
   {
     title: "Brokerages",
@@ -17,6 +23,7 @@ export const COMPETITORS_DESTROY = [
       "Impossible to set and track financial goals progress",
       "Brokerages not interested to provide you tools \n for your investments tracking - aware investors pay less commissions",
     ],
+    imgPreview: <Brokerages class={styles.ask__item_competitorImage} />,
   },
   {
     title: "Other tracking apps",
@@ -27,5 +34,6 @@ export const COMPETITORS_DESTROY = [
       "Only stocks and ETFs tracking",
       "Lack of app developers and users communication",
     ],
-  }
-]
+    imgPreview: <Competitors class={styles.ask__item_competitorImage} />,
+  },
+];

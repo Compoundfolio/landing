@@ -172,6 +172,12 @@ input#before_after_slider::-ms-tooltip {
   width: 100%;
   margin: 0 auto;
   width: 50vw;
+  transition: 0.5s linear box-shadow;
+  border-radius: 8px;
+  border: 5px solid black inset;
+}
+.parent-container:hover {
+  box-shadow: 0px 0px 100vw 100vw rgba(0, 0, 0, 0.6745098039);
 }
 
 @media only screen and (max-width: 980px) {

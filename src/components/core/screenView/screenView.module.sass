@@ -1,29 +1,29 @@
 .screenView
-  perspective: 1px
-  transform-style: preserve-3d
+  // perspective: 1px
+  // transform-style: preserve-3d
   height: 100vh
   overflow-x: hidden
   overflow-y: scroll
   position: relative
-  box-shadow: 0px -32px 20px -20px #0f6f7230 inset, 0px 32px 20px -20px #0f6f7230 inset
 
 .screenView__paralaxContainer
   display: flex
   justify-content: center
   align-items: center
   position: relative
-  height: 200vh
-  transform: translateZ(-1px) scale(2)
+  height: 100vh
+  // transform: translateZ(-1px) scale(2)
   padding: 64px
   box-sizing: content-box
+  z-index: 1
 
 .content
-  height: 150vh
+  height: 100vh
   display: flex
   justify-content: center
   align-items: center
   position: relative
-  z-index: 1
+  z-index: 2
   color: white
-  padding: 32px
+  padding: 64px
   box-sizing: content-box

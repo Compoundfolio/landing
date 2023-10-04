@@ -115,4 +115,21 @@ button:active:after {
   transform: scale(0, 0);
   opacity: 0.2;
   transition: 0s;
+}
+
+.intro_sub {
+  background: linear-gradient(180deg, #FFD390 0%, #0F6F72 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.opacity-05 {
+  opacity: 0.5;
 }/*# sourceMappingURL=global.css.map */

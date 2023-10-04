@@ -1,4 +1,6 @@
 .screenView {
+  perspective: 1px;
+  transform-style: preserve-3d;
   height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -10,14 +12,15 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 100vh;
+  height: 225vh;
+  transform: translateZ(-1px) scale(2);
   padding: 64px;
   box-sizing: content-box;
   z-index: 1;
 }
 
 .content {
-  height: 100vh;
+  height: 150vh;
   display: flex;
   justify-content: center;
   align-items: center;

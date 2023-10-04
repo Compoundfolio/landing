@@ -58,6 +58,7 @@ export default component$(() => {
         </defs>
       </svg>
       <div class="centered relative full-w">
+        <span class="intro_sub opacity-05">It's time for</span>
         <div style={{ position: "relative", width: "min-content" }}>
           <svg
             class={styles.globe}

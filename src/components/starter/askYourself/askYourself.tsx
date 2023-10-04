@@ -5,7 +5,7 @@ import { COMPETITORS_DESTROY } from "./config";
 export default component$(() => {
   return (
     <div class="centered gap-16px">
-      <span class={styles.ask_subTitle}>Ask Yourself</span>
+      <span class="intro_sub">Ask Yourself</span>
       <h2 class={styles.ask_title}>
         Honestly, is this the way <br />
         to manage your investments?

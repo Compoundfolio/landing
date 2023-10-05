@@ -8,6 +8,7 @@
 .numbers__item {
   display: flex;
   flex-direction: column;
+  margin-block: 30px;
 }
 
 .numbers__item_number {
@@ -18,4 +19,12 @@
 .numbers__item_description {
   font-size: 18px;
   font-weight: 500;
+}
+
+.bankaiEffect {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
 }/*# sourceMappingURL=numbers.module.css.map */

@@ -32,8 +32,8 @@
   position: absolute;
   width: 48px;
   height: 48px;
-  top: calc(50% - 32px);
-  right: -30px;
+  top: calc(50% - 24px);
+  right: -24px;
   pointer-events: none;
 }
 

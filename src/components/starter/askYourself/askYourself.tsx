@@ -1,12 +1,24 @@
-import { component$ } from "@builder.io/qwik";
+import { component$, useOn, useVisibleTask$ } from "@builder.io/qwik";
 import styles from "./askYourself.module.css";
 import { COMPETITORS_DESTROY } from "./config";
 
 export default component$(() => {
+  // useOn()
+
+  useVisibleTask$(() => {
+    const title = document.getElementById("a");
+    const scrollTop = document.documentElement.scrollTop * 0.5;
+    console.log(scrollTop);
+
+    if (title?.style.transform) {
+      title.style.transform = `translateY(-" + ${scrollTop} + "px)`;
+    }
+  });
+
   return (
     <div class="centered gap-16px">
       <span class="intro_sub">Ask Yourself</span>
-      <h2 class={styles.ask_title}>
+      <h2 class={styles.ask_title} id="a">
         Honestly, is this the way <br />
         to manage your investments?
       </h2>

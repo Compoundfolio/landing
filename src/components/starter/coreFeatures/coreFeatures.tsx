@@ -1,5 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import FeatureWrapper from "~/components/core/featureWrapper/featureWrapper";
+import styles from "./coreFeatures.module.css";
 
 export default component$(() => {
   return (
@@ -41,6 +42,7 @@ export default component$(() => {
           width="784"
           height="358"
           viewBox="0 0 784 358"
+          class={styles.coreFeatures_previewSvg}
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"

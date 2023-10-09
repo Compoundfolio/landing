@@ -6,7 +6,6 @@
   justify-content: space-between
   padding: 96px
 
-
 .footer_bg
   position: absolute
   top: 0
@@ -14,7 +13,6 @@
   width: 100%
   height: auto
   z-index: -1
-
 
 .footer_top
   display: flex
@@ -86,3 +84,20 @@
   font-size: 16px
   font-weight: 500
   line-height: 20px
+
+@media (max-width: 1024px)
+  .footer
+    padding: 32px
+  .footer_top_lowLvlWrapper
+    display: grid
+    grid-template-columns: calc(50% - 64px) calc(50% - 64px)
+    gap: 32px
+  .footer_top svg
+    width: 64px
+  .footer_strength
+    width: auto
+  .magnetic
+    padding: 0px
+  .footer_top_lowLvlWrapper_catchTitle
+    font-size: 16px
+    font-weight: 600

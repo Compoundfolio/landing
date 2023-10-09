@@ -7,7 +7,7 @@ export default component$(() => {
 
   return (
     <>
-      <div class="flex gap-32px relative screenViewContentMaxWidth">
+      <div class="flex gap-32px relative screenViewContentMaxWidth container">
         <div class="flex flex-col">
           <h1 class="faq_title">Frequently Asked Questions</h1>
           <svg

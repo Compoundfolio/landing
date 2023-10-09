@@ -1,6 +1,12 @@
 $color-green: #0F6F72
 $color-landingBg: #0F1112
 
+$ssDesktop: 1920px
+$ssLaptopLarge: 1440px
+$ssLaptop: 1024px
+$ssTablet: 768px
+$ssMobile: 425px
+
 html, body, main
   background-color: $color-landingBg
 
@@ -28,6 +34,16 @@ button
 
 .screenViewContentMaxWidth
   max-width: calc(100vw - 256px) !important
+
+@media (max-width: 1024px)
+  .screenViewContentMaxWidth
+    width: 100%
+    max-width: 100% !important
+    margin-bottom: 16px
+  #visualizations .screenViewContentMaxWidth
+    max-width: calc(100vw - 256px) !important
+  .screenViewContentMaxWidth > svg
+    height: fit-content
 
 .relative
   position: relative
@@ -112,3 +128,7 @@ button
 
 .opacity-05
   opacity: 0.5
+
+@media (max-width: 1024px)
+  #faq
+    height: unset !important

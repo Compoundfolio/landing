@@ -135,4 +135,12 @@
   100% {
     box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
   }
+}
+@media (max-width: 1024px) {
+  .magnetic_titleArea_title {
+    font-size: 22px;
+  }
+  .magnetic_titleArea_subTitle {
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=rhombusButton.module.css.map */

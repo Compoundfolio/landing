@@ -34,6 +34,21 @@ button {
   max-width: calc(100vw - 256px) !important;
 }
 
+@media (max-width: 1024px) {
+  .screenViewContentMaxWidth {
+    width: 100%;
+    max-width: 100% !important;
+    margin-bottom: 16px;
+  }
+  #visualizations .screenViewContentMaxWidth {
+    max-width: calc(100vw - 256px) !important;
+  }
+  .screenViewContentMaxWidth > svg {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
 .relative {
   position: relative;
 }
@@ -132,4 +147,10 @@ button:active:after {
 
 .opacity-05 {
   opacity: 0.5;
+}
+
+@media (max-width: 1024px) {
+  #faq {
+    height: unset !important;
+  }
 }/*# sourceMappingURL=global.css.map */

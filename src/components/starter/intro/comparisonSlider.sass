@@ -70,8 +70,6 @@
   overflow: visible
   position: absolute
   width: 50%
-  animation: first 2s 1 normal ease-in-out 0.1s
-  -webkit-animation: first 2s 1 normal ease-in-out 0.1s
 
 input#before_after_slider
   -moz-appearance: none
@@ -141,23 +139,13 @@ input#before_after_slider
 
 @keyframes first
   0%
-    width: 0%
-
+    opacity: 0
   50%
-    width: 80%
-
+    opacity: 1
+  75%
+    opacity: 0.5
   100%
-    width: 50%
-
-@-webkit-keyframes first
-  0%
-    width: 0%
-
-  50%
-    width: 80%
-
-  100%
-    width: 50%
+    opacity: 1
 
 /* Demo Page Stuff
 

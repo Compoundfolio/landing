@@ -9,6 +9,12 @@
   border-bottom: 1px solid rgba(76, 89, 107, 0.20)
   transition: 0.45s cubic-bezier(.6,.6,0,1) background
   background: rgba(255, 255, 255, 0.01)
+  & > svg
+    transition: 0.25s linear opacity
+    opacity: 0.5
+  &:hover
+    & > svg
+      opacity: 1
 
 .featureWall__item:hover
   background: linear-gradient(0deg, rgba(255, 211, 144, 0.05) 0%, rgba(255, 211, 144, 0.00) 58.99%)
@@ -16,13 +22,13 @@
 .featureWall__item_title
   display: block
   color: #FFF
-  font-size: 16px
+  font-size: 18px
   font-weight: 500
   margin-top: 32px
 
 .featureWall__item_description
   display: block
   color: rgba(255, 255, 255, 0.49)
-  font-size: 16px
+  font-size: 18px
   font-weight: 500
   margin-top: 16px

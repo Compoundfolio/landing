@@ -191,15 +191,16 @@ export default component$(() => {
             </clipPath>
           </defs>
         </svg>
-
-        <h1 class={styles.heroTitle}>
-          Manage your investments <br /> without Spreadsheets!
-        </h1>
-        <div class={styles.hero}>
-          <span class={styles.hero_subTitle}>
-            Keeping things highly customisable
-          </span>
-          <button class={styles.hero_ctaButton}>Get Started</button>
+        <div class={styles.titlingArea}>
+          <h1 class={styles.heroTitle}>
+            Manage your investments <br /> without Spreadsheets!
+          </h1>
+          <div class={styles.hero}>
+            <span class={styles.hero_subTitle}>
+              Keeping things highly customisable
+            </span>
+            <button class={styles.hero_ctaButton}>Get Started</button>
+          </div>
         </div>
         <ComparisonSlider />
 

@@ -12,14 +12,14 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  min-height: calc(100vh - 128px);
+  min-height: 100vh;
   padding: 64px;
   box-sizing: content-box;
   z-index: 1;
 }
 
 .content {
-  min-height: calc(100vh - 128px);
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;

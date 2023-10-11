@@ -6,6 +6,13 @@
   height: inherit;
 }
 
+.titlingArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .applogo {
   min-height: 48px;
 }
@@ -13,10 +20,10 @@
 .globe {
   position: fixed;
   right: 0;
-  top: 32px;
+  top: 0px;
   z-index: -1;
-  -webkit-animation: 2s fadeInScale linear;
-          animation: 2s fadeInScale linear;
+  -webkit-animation: 1s fadeIn linear;
+          animation: 1s fadeIn linear;
 }
 
 .heroTitle {
@@ -33,6 +40,9 @@
   display: flex;
   flex-direction: column;
   gap: 72px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   margin-top: 24px;
 }
 
@@ -59,6 +69,7 @@
   color: #fff;
   margin-bottom: 72px;
   z-index: 9999;
+  min-width: 364px;
 }
 
 .heroBg {
@@ -68,8 +79,8 @@
   top: 0;
   width: auto !important;
   height: auto !important;
-  -webkit-animation: 4s fadeIn linear;
-          animation: 4s fadeIn linear;
+  -webkit-animation: 2s fadeIn linear;
+          animation: 2s fadeIn linear;
 }
 
 .heroBgLines {
@@ -96,25 +107,5 @@
   }
   100% {
     opacity: 1;
-  }
-}
-@-webkit-keyframes fadeInScale {
-  0% {
-    opacity: 0;
-    transform: scale(1.05);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-@keyframes fadeInScale {
-  0% {
-    opacity: 0;
-    transform: scale(1.05);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
   }
 }/*# sourceMappingURL=introView.module.css.map */

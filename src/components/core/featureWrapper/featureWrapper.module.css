@@ -53,4 +53,10 @@ em.feature_description > b {
   box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
   padding-inline: 32px;
   padding-block: 16px;
+}
+
+@media (max-width: 768px) {
+  .feature_title {
+    font-size: 24px;
+  }
 }/*# sourceMappingURL=featureWrapper.module.css.map */

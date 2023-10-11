@@ -137,10 +137,19 @@
   }
 }
 @media (max-width: 1024px) {
+  .magnetic {
+    padding: 50px;
+    margin: -50px;
+  }
   .magnetic_titleArea_title {
     font-size: 22px;
   }
   .magnetic_titleArea_subTitle {
     font-size: 10px;
+  }
+  .magnetic_titleArea {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
   }
 }/*# sourceMappingURL=rhombusButton.module.css.map */

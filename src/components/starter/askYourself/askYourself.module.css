@@ -79,4 +79,38 @@
   min-width: 24px;
   height: 24px;
   border-radius: 4px;
+}
+
+@media (max-width: 1024px) {
+  .ask_title {
+    font-size: 36px;
+    margin-bottom: 8px;
+  }
+  .ask__item_head_title {
+    font-size: 18px;
+  }
+  .ask__item_weakness {
+    font-size: 14px;
+  }
+  .ask__item_weaknessIcon {
+    width: 16px;
+    min-width: 16px;
+    height: 16px;
+    border-radius: 2px;
+  }
+  .ask__item_weaknessContainter, .ask__item_head {
+    gap: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .ask__itemWrapper {
+    gap: 32px;
+  }
+  .ask__item {
+    gap: 24px;
+    width: calc(33vw - 24px - 32px);
+  }
+  .ask_title {
+    font-size: 24px;
+  }
 }/*# sourceMappingURL=askYourself.module.css.map */

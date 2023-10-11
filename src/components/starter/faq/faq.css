@@ -131,4 +131,9 @@ span.q_text {
     align-self: center;
     z-index: 3;
   }
+}
+@media (max-width: 768px) {
+  .feature_title {
+    font-size: 24px;
+  }
 }/*# sourceMappingURL=faq.css.map */

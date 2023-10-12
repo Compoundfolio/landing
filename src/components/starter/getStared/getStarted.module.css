@@ -19,7 +19,7 @@
 }
 
 .getStarted_light {
-  height: auto !important;
+  height: 100% !important;
   position: absolute;
 }
 
@@ -42,5 +42,13 @@
   .getStarted_ctaButton {
     left: 45%;
     bottom: 20%;
+  }
+}
+@media (max-width: 786px) {
+  .globe {
+    width: 75vw;
+  }
+  .changeTitle {
+    font-size: 7.9vw;
   }
 }/*# sourceMappingURL=getStarted.module.css.map */

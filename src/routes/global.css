@@ -49,6 +49,11 @@ button {
     height: fit-content;
   }
 }
+@media (max-width: 768px) {
+  #visualizations .screenViewContentMaxWidth {
+    max-width: 90vw !important;
+  }
+}
 .relative {
   position: relative;
 }

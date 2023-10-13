@@ -152,4 +152,9 @@
     width: -moz-max-content;
     width: max-content;
   }
+}
+@media (max-width: 1024px) {
+  .magnetic {
+    display: none;
+  }
 }/*# sourceMappingURL=rhombusButton.module.css.map */

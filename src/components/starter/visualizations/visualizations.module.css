@@ -20,4 +20,13 @@
   .container {
     gap: 24px;
   }
+}
+@media (max-width: 425px) {
+  .container {
+    flex-direction: column;
+  }
+  .container svg {
+    max-height: 200px;
+    width: auto;
+  }
 }/*# sourceMappingURL=visualizations.module.css.map */

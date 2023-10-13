@@ -153,7 +153,7 @@
     width: max-content;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .magnetic {
     display: none;
   }

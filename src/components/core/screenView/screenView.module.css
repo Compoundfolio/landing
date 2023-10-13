@@ -28,4 +28,10 @@
   color: white;
   padding: 64px;
   box-sizing: content-box;
+}
+
+@media (max-width: 768px) {
+  .screenView__paralaxContainer, .content {
+    padding: 64px 16px;
+  }
 }/*# sourceMappingURL=screenView.module.css.map */

@@ -135,4 +135,12 @@
   .ask_title {
     text-transform: unset;
   }
+}
+@media (max-width: 425px) {
+  .heroTitle {
+    font-size: 42px;
+  }
+  .hero_subTitle {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=introView.module.css.map */

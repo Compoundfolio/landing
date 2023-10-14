@@ -185,6 +185,13 @@ input#before_after_slider::-ms-tooltip {
   box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.1);
 }
 
+.appImg {
+  display: none;
+  width: 90vw;
+  height: auto;
+  margin-top: 64px;
+}
+
 @media (max-width: 1024px) {
   .parent-container {
     width: 80vw;
@@ -203,5 +210,13 @@ input#before_after_slider::-ms-tooltip {
   p {
     color: white;
     font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .appImg {
+    display: block;
+  }
+  .parent-container {
+    display: none;
   }
 }/*# sourceMappingURL=comparisonSlider.css.map */

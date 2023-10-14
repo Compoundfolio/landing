@@ -18,8 +18,22 @@ export default component$(() => {
 
   return (
     <>
-      <AppImg class="appImg" />
+      <AppImg class="appImg" loading="lazy" decoding="async" />
       <section class="parent-container relative">
+        <div class="before-after-container">
+          <figure>
+            <div id="before_after"></div>
+          </figure>
+          <input
+            onInput$={beforeAfter}
+            onChange$={beforeAfter}
+            type="range"
+            min="0"
+            max="100"
+            value="50"
+            id="before_after_slider"
+          />
+        </div>
         <svg
           class="abstractFigureLeft"
           xmlns="http://www.w3.org/2000/svg"

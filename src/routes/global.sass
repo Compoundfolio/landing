@@ -6,8 +6,8 @@ $ssLaptopLarge: 1440px
 $ssLaptop: 1024px
 $ssTablet: 768px
 $ssMobile: 425px
-h
-tml, body, main
+
+html, body, main
   background-color: $color-landingBg
 
 *:not(.raw-HTML)
@@ -137,3 +137,13 @@ button
 @media (max-width: 1024px)
   #faq
     height: unset !important
+
+.blackLinearBg
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(15, 111, 114, 0.075) 48.96%, rgba(0, 0, 0, 1) 100%)
+  background-blend-mode: soft-light
+  z-index: -3000

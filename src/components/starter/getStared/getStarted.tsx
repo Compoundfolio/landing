@@ -1,64 +1,22 @@
 import { component$ } from "@builder.io/qwik";
 import styles from "./getStarted.module.css";
 import RhombusButton from "~/components/core/rhombusButton/rhombusButton";
+// import BlackHoleImage from "../../../../public/images/blackHole.png?jsx";
 
 export default component$(() => {
   return (
     <>
-      <svg
-        class={styles.getStarted_light}
-        width="1908"
-        height="1079"
-        viewBox="0 0 1908 1079"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <mask
-          id="mask0_854_10193"
-          style="mask-type:alpha"
-          maskUnits="userSpaceOnUse"
-          x="0"
-          y="0"
-          width="1909"
-          height="1079"
-        >
-          <path d="M0 0H1909V1079H0V0Z" fill="url(#paint0_linear_854_10193)" />
-        </mask>
-        <g mask="url(#mask0_854_10193)">
-          <path
-            opacity="0.4"
-            d="M0 0H1909V845C1167.99 640.144 750.939 598.022 0 845V0Z"
-            fill="url(#paint1_linear_854_10193)"
-          />
-        </g>
-        <defs>
-          <linearGradient
-            id="paint0_linear_854_10193"
-            x1="954.5"
-            y1="0"
-            x2="954.5"
-            y2="1079"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stop-color="white" />
-            <stop offset="1" stop-color="white" stop-opacity="0" />
-          </linearGradient>
-          <linearGradient
-            id="paint1_linear_854_10193"
-            x1="954.5"
-            y1="0"
-            x2="954.5"
-            y2="1079"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop />
-            <stop offset="0.604167" stop-color="#0F6F72" stop-opacity="0" />
-            <stop offset="1" stop-opacity="0" />
-          </linearGradient>
-        </defs>
-      </svg>
+      <div class={[styles.kolhoz, styles.kolhoz_top]} />
+      <div class={[styles.kolhoz, styles.kolhoz_bottom]} />
+      <div class={styles.blackHole} />
+
       <div class="centered relative full-w">
-        <span class="intro_sub opacity-05">It's time for</span>
+        <span
+          class={styles.changeTitle}
+          style={{ fontStyle: "normal !important" }}
+        >
+          It's time for
+        </span>
         <div style={{ position: "relative", width: "min-content" }}>
           <svg
             class={styles.globe}
@@ -69,16 +27,6 @@ export default component$(() => {
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
           >
-            <g style="mix-blend-mode:luminosity">
-              <rect
-                id="globe"
-                x="91"
-                width="757"
-                height="729"
-                rx="364.5"
-                fill="url(#pattern055)"
-              />
-            </g>
             <g filter="url(#filter0_d_0_1)">
               <rect
                 x="30.5"
@@ -95,67 +43,6 @@ export default component$(() => {
                 stroke="#4C596B"
                 stroke-opacity="0.25"
                 stroke-width="5"
-              />
-            </g>
-            <g filter="url(#filter1_d_0_1)">
-              <g clip-path="url(#clip0_0_1)">
-                <rect
-                  x="402"
-                  y="243"
-                  width="100"
-                  height="100"
-                  rx="50"
-                  fill="url(#paint0_angular_0_1)"
-                />
-                <rect
-                  x="402"
-                  y="243"
-                  width="100"
-                  height="100"
-                  rx="50"
-                  fill="#000040"
-                  fill-opacity="0.3"
-                />
-                <g filter="url(#filter2_d_0_1)">
-                  <rect
-                    x="455.886"
-                    y="280"
-                    width="26.9998"
-                    height="26.9998"
-                    rx="13.4999"
-                    fill="white"
-                  />
-                </g>
-                <g filter="url(#filter3_d_0_1)">
-                  <rect
-                    x="435.5"
-                    y="286.75"
-                    width="20.2499"
-                    height="20.2499"
-                    rx="10.1249"
-                    fill="white"
-                  />
-                </g>
-                <g filter="url(#filter4_d_0_1)">
-                  <rect
-                    x="422"
-                    y="293.5"
-                    width="13.4999"
-                    height="13.4999"
-                    rx="6.74995"
-                    fill="white"
-                  />
-                </g>
-              </g>
-              <rect
-                x="403"
-                y="244"
-                width="98"
-                height="98"
-                rx="49"
-                stroke="#0F6F72"
-                stroke-opacity="0.53"
-                stroke-width="2"
               />
             </g>
             <defs>

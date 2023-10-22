@@ -160,15 +160,9 @@ export default component$(() => {
         <ImgComppng
           class="beforeLogo"
           decoding="async"
-          loading="lazy"
           alt="Compoundfolio logo"
         />
-        <ImgExcelpng
-          class="afterLogo"
-          decoding="async"
-          loading="lazy"
-          alt="Excel logo"
-        />
+        <ImgExcelpng class="afterLogo" decoding="async" alt="Excel logo" />
       </section>
     </>
   );

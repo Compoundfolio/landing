@@ -6,6 +6,7 @@ import ImgGecugaTenshou from "./img/gecugaTenshou.png?jsx";
 export default component$(() => {
   return (
     <>
+      <div class={["blackLinearBg", styles.blackLinearBg]} />
       <ImgGecugaTenshou class={styles.gecugaTenshouImg} />
       <div class="centered">
         <FeatureWrapper

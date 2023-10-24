@@ -10,16 +10,20 @@ export default component$(() => {
       <div class={[styles.kolhoz, styles.kolhoz_bottom]} />
       <div class={styles.blackHole} />
 
-      <div class="centered relative full-w">
+      <div class={[styles.light, styles.light_left]} />
+      <div class={[styles.light, styles.light_right]} />
+
+      <div class={[styles.getStarted_wrap, "relative full-w"]}>
         <span
           class={styles.changeTitle}
           style={{ fontStyle: "normal !important" }}
         >
           It's time for
         </span>
-        <div style={{ position: "relative", width: "min-content" }}>
+        <div class={styles.getStarted_previewWrap}>
           <DividendsModalImage
-            loading="lazy"
+            decoding="auto"
+            // loading="eager"
             class={styles.getStarted_dividendsModalImage}
           />
           <div class={styles.getStarted_ctaButton}>

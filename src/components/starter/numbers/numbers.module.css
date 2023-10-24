@@ -31,6 +31,22 @@
   border-radius: 3000px;
 }
 
+.numbers_bgImage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url("../../../../public/images/numbersBg.png");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -1;
+  width: 100vw;
+  height: 26vw;
+}
+
 @media (max-width: 1024px) {
   .bankaiEffect {
     opacity: 0.5;

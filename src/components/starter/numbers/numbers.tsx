@@ -1,12 +1,10 @@
 import { component$ } from "@builder.io/qwik";
 import FeatureWrapper from "~/components/core/featureWrapper/featureWrapper";
 import styles from "./numbers.module.css";
-import ImgBankaiEffect from "./img/bankaiEffect.png?jsx";
 
 export default component$(() => {
   return (
     <>
-      <ImgBankaiEffect class={styles.bankaiEffect} />
       <FeatureWrapper
         shortTitle="Numbers"
         title={
@@ -33,6 +31,7 @@ export default component$(() => {
           </div>
         </div>
       </FeatureWrapper>
+      <div class={styles.numbers_bgImage} />
     </>
   );
 });

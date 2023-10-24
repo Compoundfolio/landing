@@ -30,7 +30,6 @@
 .magnetic_titleArea {
   margin-top: 0px;
   margin-left: 42px;
-  text-transform: uppercase;
 }
 
 .magnetic_titleArea_subTitle {
@@ -64,7 +63,6 @@
   text-align: center;
   transform: rotate(-45deg);
   transition: color 2s;
-  text-transform: uppercase;
   margin-right: 4px;
 }
 

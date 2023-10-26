@@ -6,20 +6,7 @@ import styles from "./featureWall.module.css";
 export default component$(() => {
   return (
     <>
-      <div
-        style={{
-          position: "absolute",
-          top: "calc(50% - 342px)",
-          left: "calc(50vw - 342px)",
-          width: "684px",
-          height: "684px",
-          filter: "blur(204.5px)",
-          background: "rgba(255, 211, 144, 0.16)",
-          borderRadius: "30000px",
-          zIndex: -1,
-          opacity: 0.65,
-        }}
-      />
+      <div class={styles.light} />
       <FeatureWrapper
         shortTitle="Feature wall"
         title={`Asset management \n have never been that easy`}

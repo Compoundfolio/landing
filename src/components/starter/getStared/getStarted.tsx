@@ -22,8 +22,7 @@ export default component$(() => {
         </span>
         <div class={styles.getStarted_previewWrap}>
           <DividendsModalImage
-            decoding="auto"
-            // loading="eager"
+            loading={undefined}
             class={styles.getStarted_dividendsModalImage}
           />
           <div class={styles.getStarted_ctaButton}>

@@ -159,10 +159,10 @@ export default component$(() => {
         </svg>
         <ImgComppng
           class="beforeLogo"
-          decoding="async"
+          loading={undefined}
           alt="Compoundfolio logo"
         />
-        <ImgExcelpng class="afterLogo" decoding="async" alt="Excel logo" />
+        <ImgExcelpng class="afterLogo" loading={undefined} alt="Excel logo" />
       </section>
     </>
   );

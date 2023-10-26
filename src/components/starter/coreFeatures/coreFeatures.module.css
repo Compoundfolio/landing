@@ -5,6 +5,25 @@
   gap: 64px;
 }
 
+.light {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  width: 100vh;
+  height: 100vh;
+  border-radius: 3000px;
+  background: radial-gradient(circle, rgba(18, 144, 255, 0.05) 0%, rgba(0, 0, 0, 0) 75%);
+}
+
+.light_left {
+  left: 0%;
+}
+
+.light_right {
+  left: 100%;
+}
+
 @media (max-width: 1024px) {
   .coreFeatures_previewSvg {
     width: 50vw;

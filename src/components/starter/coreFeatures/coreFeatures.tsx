@@ -5,7 +5,9 @@ import styles from "./coreFeatures.module.css";
 export default component$(() => {
   return (
     <>
-      <div
+      <div class={[styles.light, styles.light_left]} />
+      <div class={[styles.light, styles.light_right]} />
+      {/* <div
         style={{
           position: "absolute",
           top: "calc(50% - 342px)",
@@ -30,7 +32,7 @@ export default component$(() => {
           borderRadius: "30000px",
           zIndex: -1,
         }}
-      />
+      /> */}
       <FeatureWrapper
         shortTitle="Portfolios"
         title="Manage multiple portfolios"

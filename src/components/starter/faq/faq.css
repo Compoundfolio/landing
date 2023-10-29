@@ -42,6 +42,8 @@ span.q_text {
   width: 25vw !important;
   height: 25vw !important;
   align-self: center;
+  -webkit-animation: float 6s ease-in-out infinite;
+          animation: float 6s ease-in-out infinite;
 }
 
 .faq_item {
@@ -148,5 +150,27 @@ span.q_text {
   }
   .question {
     padding: 16px;
+  }
+}
+@-webkit-keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }/*# sourceMappingURL=faq.css.map */

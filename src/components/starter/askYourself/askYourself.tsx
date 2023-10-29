@@ -23,7 +23,7 @@ export default component$(() => {
 
               <div class={styles.ask__item_content}>
                 {imgPreview}
-                <ul class={styles.ask__item_weaknessContainter}>
+                <ul class={styles.ask__item_weaknessContainer}>
                   {weaknesses.map((weakness) => (
                     <li
                       key={title + weakness}

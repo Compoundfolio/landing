@@ -1,13 +1,10 @@
 html, body, main {
   background-color: #0F1112;
-}
-
-*:not(.raw-HTML) {
-  font-family: "Montserrat", sans-serif;
-}
-
-html {
   scroll-behavior: smooth;
+}
+
+html, body, *:not(.raw-HTML) {
+  font-family: "Montserrat", sans-serif;
 }
 
 button {

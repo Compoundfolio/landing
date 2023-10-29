@@ -37,6 +37,7 @@ span.q_text
   width: 25vw !important
   height: 25vw !important
   align-self: center
+  animation: float 6s ease-in-out infinite
 
 .faq_item
   width: 100%
@@ -48,7 +49,7 @@ span.q_text
 .answers
   display: flex
   padding: 0px 32px
-  width: 100%!important
+  width: 100% !important
   height: 0
   overflow: hidden
   z-index: -1
@@ -125,3 +126,11 @@ span.q_text
     margin-right: 24px
   .question
     padding: 16px
+
+@keyframes float
+  0%
+    transform: translateY(0px)
+  50%
+    transform: translateY(20px)
+  100%
+    transform: translateY(0px)

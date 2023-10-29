@@ -1,5 +1,5 @@
 .getStarted_dividendsModalImage
-  width: 843px !important
+  width: 843px
   height: auto
   border: 5px solid rgba(76, 89, 107, 0.25)
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
@@ -43,7 +43,7 @@
   font-weight: 700
   line-height: 100%
   text-align: center
-  background: linear-gradient(180deg, rgba(255, 211, 144, 0.50) 0%, rgba(15, 111, 114, 0.5) 100%)
+  background: linear-gradient(180deg, rgba(255, 211, 144, 0.75) 0%, rgba(15, 111, 114, 0.75) 100%)
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
   background-clip: text
   -webkit-background-clip: text
@@ -51,6 +51,7 @@
   padding-inline: 8px
   letter-spacing: 1.274px
   text-transform: uppercase
+  z-index: 11
 
 .getStarted_light
   height: 100% !important
@@ -72,24 +73,18 @@
 .getStarted_previewWrap
   position: relative
   width: min-content
-  // margin-top: 10vh
-
-// Kolhoz needed to fix the bug effect of black hole image blend mode,
-// which creates white borders at the top & at the bottom
 
 .kolhoz
   width: 100%
-  height: 1px
+  height: 5px
   background: black
   position: absolute
 
 .kolhoz_top
-  top: 0
+  top: -1px
 
 .kolhoz_bottom
   bottom: -1px
-
-// end Kolhoz. God, if you exist and you see it, i'm sorry!!!
 
 @media (max-width: 1024px)
   .getStarted_dividendsModalImage
@@ -107,6 +102,14 @@
     width: 75vw
   .changeTitle
     font-size: 7.9vw
+
+@media (max-width: 525px)
+  .getStarted_wrap
+    gap: 120px
+    justify-content: center
+  .changeTitle
+    background: linear-gradient(180deg, rgba(255, 211, 144, 0.99) 0%, rgba(15, 111, 114, 0.99) 100%)
+    -webkit-background-clip: text
 
 @media (max-width: 425px)
   .getStarted_dividendsModalImage

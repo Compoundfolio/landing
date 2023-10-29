@@ -5,14 +5,17 @@ import type { RequestHandler } from "@builder.io/qwik-city";
 import resetStyles from "./reset.css?inline";
 import globalStyles from "./global.css?inline";
 
+const REVALIDATE_MILLISECONDS_TIME = 60 * 60 * 24 * 7;
+const MAX_SERVER_SIDE_REVALIDATION_IN_SECONDS = 5;
+
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   // Control caching for this request for best performance and to reduce hosting costs:
   // https://qwik.builder.io/docs/caching/
   cacheControl({
     // Always serve a cached response by default, up to a week stale
-    staleWhileRevalidate: 60 * 60 * 24 * 7,
+    staleWhileRevalidate: REVALIDATE_MILLISECONDS_TIME,
     // Max once every 5 seconds, revalidate on the server to get a fresh version of this page
-    maxAge: 5,
+    maxAge: MAX_SERVER_SIDE_REVALIDATION_IN_SECONDS,
   });
 };
 

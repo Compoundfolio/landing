@@ -1,14 +1,9 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-
 import ScreenView from "~/components/core/screenView/screenView";
 
 export default component$(() => {
-  return (
-    <>
-      <ScreenView />
-    </>
-  );
+  return <ScreenView />;
 });
 
 export const head: DocumentHead = {

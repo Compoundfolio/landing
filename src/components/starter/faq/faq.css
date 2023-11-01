@@ -22,6 +22,7 @@ b.q_head {
 
 span.q_text {
   color: rgba(255, 255, 255, 0.5);
+  line-height: 24px;
 }
 
 .question {
@@ -51,8 +52,15 @@ span.q_text {
 }
 
 .faq_item:hover {
-  background: rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  background: rgba(255, 211, 144, 0.05);
+}
+
+.faq_item:hover .q_text, .faq_item:hover .q_head {
+  color: white !important;
+}
+
+input:checked ~ * {
+  background: rgba(255, 211, 144, 0.4);
 }
 
 .answers {
@@ -109,17 +117,19 @@ span.q_text {
 }
 
 .faq_bg {
-  width: auto;
-  height: inherit;
+  width: 100%;
+  height: 100%;
   z-index: -1;
   position: absolute;
   left: 0;
   top: 0;
+  opacity: 0.5;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1520px) {
   .container {
     flex-direction: column;
+    gap: 48px;
   }
   .content {
     width: 100%;
@@ -135,6 +145,9 @@ span.q_text {
   }
 }
 @media (max-width: 768px) {
+  .container {
+    margin-bottom: 64px;
+  }
   .faq_title {
     font-size: 24px;
   }
@@ -143,8 +156,11 @@ span.q_text {
     right: 0px;
     top: -75px;
   }
+  .q_head {
+    display: none !important;
+  }
 }
-@media (max-width: 425px) {
+@media (max-width: 608px) {
   b.q_head {
     margin-right: 24px;
   }

@@ -1,5 +1,6 @@
-import { Slot, component$ } from "@builder.io/qwik";
+import { $, Slot, component$ } from "@builder.io/qwik";
 import style from "./featureWrapper.module.css";
+import { APP_LINK } from "~/consts";
 
 interface IFeatureWrapper {
   shortTitle: string;
@@ -17,6 +18,10 @@ export default component$(
     description,
     ctaButtonTitle,
   }: IFeatureWrapper) => {
+    const handleClickCta = $(() => {
+      window.open(APP_LINK, "_blank");
+    });
+
     return (
       <article class={style.feature}>
         <p class={style.feature_shortTitle}>{shortTitle}</p>
@@ -36,11 +41,12 @@ export default component$(
           )}
         </div>
         {ctaButtonTitle && (
-          <a href="http://localhost:3000" preventdefault:click>
-            <button class={style.feature_callToActionButton}>
-              {ctaButtonTitle}
-            </button>
-          </a>
+          <button
+            onClick$={handleClickCta}
+            class={style.feature_callToActionButton}
+          >
+            {ctaButtonTitle}
+          </button>
         )}
       </article>
     );

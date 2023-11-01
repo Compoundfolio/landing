@@ -1,6 +1,7 @@
-import { component$, useId, useVisibleTask$ } from "@builder.io/qwik";
+import { $, component$, useId, useVisibleTask$ } from "@builder.io/qwik";
 import styles from "./rhombusButton.module.css";
 import { gsap } from "gsap";
+import { APP_LINK } from "~/consts";
 
 export default component$(() => {
   const magneticButtonUniqueId = useId();
@@ -39,9 +40,16 @@ export default component$(() => {
     }
   });
 
+  const handleClick = $(() => {
+    window.open(APP_LINK, "_blank");
+  });
+
   return (
     <div class={styles.magnetic} id={magneticButtonUniqueId}>
-      <button class={[styles.rhombusButton, styles.myButton]}>
+      <button
+        class={[styles.rhombusButton, styles.myButton]}
+        onClick$={handleClick}
+      >
         <span class={styles.rhombusButton_icon}>+</span>
       </button>
       <div class={[styles.magnetic_titleArea, "flex flex-col gap-8px"]}>

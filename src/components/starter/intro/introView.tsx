@@ -1,9 +1,14 @@
-import { component$ } from "@builder.io/qwik";
+import { $, component$ } from "@builder.io/qwik";
 import styles from "./introView.module.css";
 import ComparisonSlider from "./comparisonSlider";
 import ImgBackgroundWIthStars from "./img/bg.png?jsx";
+import { APP_LINK } from "~/consts";
 
 export default component$(() => {
+  const handleClickCta = $(() => {
+    window.open(APP_LINK, "_blank");
+  });
+
   return (
     <>
       <ImgBackgroundWIthStars class={styles.heroBg} />
@@ -200,7 +205,9 @@ export default component$(() => {
               <span class={styles.hero_subTitle}>
                 Keeping things highly customisable
               </span>
-              <button class={styles.hero_ctaButton}>Get Started</button>
+              <button onClick$={handleClickCta} class={styles.hero_ctaButton}>
+                Get Started
+              </button>
             </div>
           </div>
           <ComparisonSlider />

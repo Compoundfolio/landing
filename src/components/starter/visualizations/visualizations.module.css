@@ -20,6 +20,6 @@
   }
   .container svg {
     max-height: 200px;
-    width: auto;
+    width: inherit;
   }
 }/*# sourceMappingURL=visualizations.module.css.map */

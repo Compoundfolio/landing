@@ -1,7 +1,7 @@
 import { $, component$ } from "@builder.io/qwik";
 import styles from "./introView.module.css";
 import ComparisonSlider from "./comparisonSlider";
-import ImgBackgroundWIthStars from "./img/bg.png?jsx";
+import bgImageUrl from "./img/bg.png";
 import { APP_LINK } from "~/consts";
 
 export default component$(() => {
@@ -11,7 +11,13 @@ export default component$(() => {
 
   return (
     <>
-      <ImgBackgroundWIthStars class={styles.heroBg} />
+      <img
+        width={100}
+        height={100}
+        alt="Background"
+        class={styles.heroBg}
+        src={bgImageUrl}
+      />
       <div class={styles.wrapper}>
         <svg
           class={styles.applogo}

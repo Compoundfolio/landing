@@ -1,1 +1,1 @@
-export const APP_LINK = "https://www.app.dev.compoundfolio.com/auth" as const;
+export const APP_LINK = "https://www.app.compoundfolio.com/auth" as const;

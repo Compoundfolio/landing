@@ -17,6 +17,7 @@ export const COMPETITORS_DESTROY = [
       <Excel
         decoding="sync"
         loading="eager"
+        alt="Excel image"
         class={styles.ask__item_competitorImage}
       />
     ),
@@ -33,6 +34,7 @@ export const COMPETITORS_DESTROY = [
       <Brokerages
         decoding="sync"
         loading="eager"
+        alt="Brokerages image"
         class={styles.ask__item_competitorImage}
       />
     ),
@@ -50,6 +52,7 @@ export const COMPETITORS_DESTROY = [
       <Competitors
         decoding="sync"
         loading="eager"
+        alt="Competitors image"
         class={styles.ask__item_competitorImage}
       />
     ),

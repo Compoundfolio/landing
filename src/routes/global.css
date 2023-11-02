@@ -4,7 +4,7 @@ html, body, main {
 }
 
 html, body, *:not(.raw-HTML) {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
 }
 
 button {

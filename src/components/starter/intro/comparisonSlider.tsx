@@ -1,8 +1,8 @@
 import { component$, useStyles$, $ } from "@builder.io/qwik";
 import styles from "./comparisonSlider.css?inline";
-import ImgExcelpng from "./img/excel.png?jsx";
-import ImgComppng from "./img/compoundPower.png?jsx";
-import AppImg from "./img/after.png?jsx";
+import ImgExcelpng from "../../../../public/images/excel.png?jsx";
+import ImgComppng from "../../../../public/images/compoundPower.png?jsx";
+import AppImg from "../../../../public/images/after.png?jsx";
 
 export default component$(() => {
   useStyles$(styles);
@@ -18,7 +18,7 @@ export default component$(() => {
 
   return (
     <>
-      <AppImg class="appImg" loading="lazy" decoding="async" />
+      <AppImg class="appImg" loading={undefined} />
       <section class="parent-container relative">
         <div class="before-after-container">
           <figure>
@@ -159,10 +159,16 @@ export default component$(() => {
         </svg>
         <ImgComppng
           class="beforeLogo"
-          loading={undefined}
           alt="Compoundfolio logo"
+          decoding="sync"
+          loading="eager"
         />
-        <ImgExcelpng class="afterLogo" loading={undefined} alt="Excel logo" />
+        <ImgExcelpng
+          class="afterLogo"
+          decoding="sync"
+          loading="eager"
+          alt="Excel logo"
+        />
       </section>
     </>
   );

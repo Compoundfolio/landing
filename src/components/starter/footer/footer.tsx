@@ -236,7 +236,7 @@ export default component$(() => {
         </a>
         <span class={styles.footer_bottom_text}>
           {/* TODO: Copy on click */}
-          compaundfolio.support@gmail.com
+          compoundfolio.support@gmail.com
         </span>
       </section>
     </footer>

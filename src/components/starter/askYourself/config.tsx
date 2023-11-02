@@ -1,6 +1,6 @@
-import Excel from "./img/excel.png?jsx";
-import Brokerages from "./img/brokerages.png?jsx";
-import Competitors from "./img/competitors.png?jsx";
+import Excel from "../../../../public/images/excelDark.png?jsx";
+import Brokerages from "../../../../public/images/brokerages.png?jsx";
+import Competitors from "../../../../public/images/competitors.png?jsx";
 import styles from "./askYourself.module.css";
 
 export const COMPETITORS_DESTROY = [
@@ -13,7 +13,13 @@ export const COMPETITORS_DESTROY = [
       "Hard to automate",
       "Google spies your data",
     ],
-    imgPreview: <Excel class={styles.ask__item_competitorImage} />,
+    imgPreview: (
+      <Excel
+        decoding="sync"
+        loading="eager"
+        class={styles.ask__item_competitorImage}
+      />
+    ),
   },
   {
     title: "Brokerages",
@@ -23,7 +29,13 @@ export const COMPETITORS_DESTROY = [
       "Impossible to set and track financial goals progress",
       "Brokerages not interested to provide you tools \n for your investments tracking - aware investors pay less commissions",
     ],
-    imgPreview: <Brokerages class={styles.ask__item_competitorImage} />,
+    imgPreview: (
+      <Brokerages
+        decoding="sync"
+        loading="eager"
+        class={styles.ask__item_competitorImage}
+      />
+    ),
   },
   {
     title: "Other tracking apps",
@@ -34,6 +46,12 @@ export const COMPETITORS_DESTROY = [
       "Only stocks and ETFs tracking",
       "Lack of app developers and users communication",
     ],
-    imgPreview: <Competitors class={styles.ask__item_competitorImage} />,
+    imgPreview: (
+      <Competitors
+        decoding="sync"
+        loading="eager"
+        class={styles.ask__item_competitorImage}
+      />
+    ),
   },
 ];

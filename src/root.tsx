@@ -7,7 +7,6 @@ import {
 import { RouterHead } from "./components/router-head/router-head";
 
 export default component$(() => {
-  new Image().src = "/images/after.png";
   return (
     <QwikCityProvider>
       <head>

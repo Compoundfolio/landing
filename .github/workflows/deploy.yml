@@ -30,7 +30,7 @@ jobs:
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           ssh-keyscan -H ${{ secrets.SSH_HOST }} > ~/.ssh/known_hosts
       - name: Upload image to server
-        run: rsync -avz $APP_NAME.tar docker-compose.yml ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:~/${DEPLOY_ENV}/landing/
+        run: rsync -avz $APP_NAME.tar ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:~/${DEPLOY_ENV}/landing/
       - name: Start the container
         run: |
           ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} <<EOF

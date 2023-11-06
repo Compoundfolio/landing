@@ -16,7 +16,7 @@ export const COMPETITORS_DESTROY = [
     imgPreview: (
       <Excel
         decoding="async"
-        loading="lazy"
+        loading="eager"
         alt="Excel image"
         class={styles.ask__item_competitorImage}
       />
@@ -33,7 +33,7 @@ export const COMPETITORS_DESTROY = [
     imgPreview: (
       <Brokerages
         decoding="async"
-        loading="lazy"
+        loading="eager"
         alt="Brokerages image"
         class={styles.ask__item_competitorImage}
       />
@@ -51,7 +51,7 @@ export const COMPETITORS_DESTROY = [
     imgPreview: (
       <Competitors
         decoding="async"
-        loading="lazy"
+        loading="eager"
         alt="Competitors image"
         class={styles.ask__item_competitorImage}
       />

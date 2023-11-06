@@ -157,13 +157,13 @@ export default component$(() => {
             </linearGradient>
           </defs>
         </svg>
-        <ImgComppng
+        <ImgExcelpng
           class="beforeLogo"
           alt="Compoundfolio logo"
           decoding="sync"
           loading="eager"
         />
-        <ImgExcelpng
+        <ImgComppng
           class="afterLogo"
           decoding="sync"
           loading="eager"

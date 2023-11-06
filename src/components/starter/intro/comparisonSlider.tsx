@@ -18,7 +18,7 @@ export default component$(() => {
 
   return (
     <>
-      <AppImg class="appImg" loading={undefined} />
+      <AppImg class="appImg" loading="eager" />
       <section class={`parent-container relative`}>
         <div class="before-after-container">
           <figure>
@@ -161,14 +161,8 @@ export default component$(() => {
           class="beforeLogo"
           alt="Compoundfolio logo"
           loading="eager"
-          onLoad$={() => (comparisonLoadedImages.value.before = true)}
         />
-        <ImgComppng
-          class="afterLogo"
-          loading="eager"
-          alt="Excel logo"
-          onLoad$={() => (comparisonLoadedImages.value.after = true)}
-        />
+        <ImgComppng class="afterLogo" loading="eager" alt="Excel logo" />
       </section>
     </>
   );

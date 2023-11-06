@@ -1,8 +1,8 @@
 import { $, component$ } from "@builder.io/qwik";
 import styles from "./introView.module.css";
 import ComparisonSlider from "./comparisonSlider";
-import bgImageUrl from "../../../../public/images/bg.png";
-import GlobeImage from "../../../../public/images/globe.png?jsx";
+import bgImageUrl from "../../../../public/images/bg.avif";
+import GlobeImage from "../../../../public/images/globe.avif?jsx";
 import { APP_LINK } from "~/consts";
 
 export default component$(() => {

@@ -1,7 +1,7 @@
 :root {
   --before-after-aspect-ratio: 1 / 0.56;
-  --before-image: url(../../../../public/images/after.png);
-  --after-image: url(../../../../public/images/before.png);
+  --before-image: url(../../../../public/images/after.avif);
+  --after-image: url(../../../../public/images/before.avif);
   --before-after-background-color:#1f1f1c;
 }
 

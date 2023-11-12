@@ -25,12 +25,12 @@
 .ask__item_head {
   display: flex;
   align-items: center;
-  gap: 42px;
+  gap: 64px;
 }
 
 .ask__item_content {
   display: flex;
-  gap: 42px;
+  gap: 64px;
   flex-direction: column;
   justify-content: center;
 }
@@ -39,6 +39,7 @@
   width: auto;
   height: auto;
   pointer-events: none;
+  opacity: 0.5;
 }
 
 .ask__item_head_title {

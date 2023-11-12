@@ -158,11 +158,11 @@ export default component$(() => {
           </defs>
         </svg>
         <ImgExcelpng
-          class="beforeLogo"
+          class="afterLogo"
           alt="Compoundfolio logo"
           loading="eager"
         />
-        <ImgComppng class="afterLogo" loading="eager" alt="Excel logo" />
+        <ImgComppng class="beforeLogo" loading="eager" alt="Excel logo" />
       </section>
     </>
   );

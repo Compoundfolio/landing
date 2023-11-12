@@ -16,6 +16,6 @@ export const FOOTER_APP_STRENGTH = [
   {
     title: "Support and help",
     description:
-      "You always can contact us for any help: compoundfolio.support@gmail.com",
+      "You always can contact us for any help: compoundfolio.help@gmail.com",
   },
 ];

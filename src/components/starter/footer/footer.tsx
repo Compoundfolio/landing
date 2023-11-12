@@ -219,7 +219,7 @@ export default component$(() => {
         <span class={styles.footer_bottom_text}>
           {new Date().getFullYear()} Compoundfolio™. All rights reserved.
         </span>
-        <a href="http://linkedin.com/company/compoundfolio">
+        <a href="http://linkedin.com/company/compoundfolio" title="LinkedIn">
           <svg
             width="32"
             height="32"
@@ -234,9 +234,26 @@ export default component$(() => {
             />
           </svg>
         </a>
+        <a href="https://twitter.com/compoundfo" title="X (Twitter)">
+          <svg
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M11.9877 16.2293L0 1.33325H9.49513L16.8951 10.5401L24.8007 1.37471H30.0301L19.4235 13.6859L32 29.3333H22.5332L14.5206 19.3767L5.96634 29.3057H0.708592L11.9877 16.2293ZM23.9131 26.5733L5.82209 4.09323H8.1142L26.1824 26.5733H23.9131Z"
+              fill="white"
+              fill-opacity="0.51"
+            />
+          </svg>
+        </a>
         <span class={styles.footer_bottom_text}>
           {/* TODO: Copy on click */}
-          compoundfolio.support@gmail.com
+          compoundfolio.help@gmail.com
         </span>
       </section>
     </footer>

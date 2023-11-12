@@ -18,7 +18,7 @@ export const FAQ_LIST = [
   {
     question:
       "Can I provide my spreadsheets to you and get the platform set-up?",
-    answer: `Yes, we provide this kind of service for a fee that depends on the complexity of your reports. Please, feel free to contact us directly - compoundfolio.support@gmail.com`,
+    answer: `Yes, we provide this kind of service for a fee that depends on the complexity of your reports. Please, feel free to contact us directly - compoundfolio.help@gmail.com`,
     active: false,
   },
   {

@@ -1,4 +1,4 @@
-import Excel from "../../../../public/images/excelDark.png?jsx";
+import Excel from "../../../../public/images/excelDark.avif?jsx";
 import Brokerages from "../../../../public/images/brokerages.png?jsx";
 import Competitors from "../../../../public/images/competitors.png?jsx";
 import styles from "./askYourself.module.css";
@@ -6,13 +6,7 @@ import styles from "./askYourself.module.css";
 export const COMPETITORS_DESTROY = [
   {
     title: "Spreadsheets",
-    weaknesses: [
-      "Time consuming",
-      "Difficult to manage",
-      "High risk of human error",
-      "Hard to automate",
-      "Google spies your data",
-    ],
+    weaknesses: ["Time consuming", "Human errors", "Hard to automate"],
     imgPreview: (
       <Excel
         decoding="async"
@@ -23,12 +17,11 @@ export const COMPETITORS_DESTROY = [
     ),
   },
   {
-    title: "Brokerages",
+    title: "Brokerage apps",
     weaknesses: [
       "Poor functionality",
-      "Not customizable user interface",
+      "Not customizable",
       "Impossible to set and track financial goals progress",
-      "Brokerages not interested to provide you tools \n for your investments tracking - aware investors pay less commissions",
     ],
     imgPreview: (
       <Brokerages
@@ -42,11 +35,9 @@ export const COMPETITORS_DESTROY = [
   {
     title: "Other tracking apps",
     weaknesses: [
-      "Not customizable user interface",
-      "Bad investment data visualization",
-      "It's uncomfortable to manage multiple portfolios",
-      "Only stocks and ETFs tracking",
-      "Lack of app developers and users communication",
+      "Hard to manage several portfolios",
+      "Don't support some of my assets",
+      "Too focused on dividends",
     ],
     imgPreview: (
       <Competitors

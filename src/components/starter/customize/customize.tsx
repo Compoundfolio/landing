@@ -5,11 +5,11 @@ import style from "./customize.module.css";
 export default component$(() => {
   return (
     <FeatureWrapper
-      shortTitle="Customization"
+      shortTitle="Advanced customization"
       title="Customize the platform by your own"
       description={`Hide / show / move parts of the user interface, \n choose the way of big data representation from multiple options`}
-      replacesText="Sheets, Portsedio, Simply Safe Dividends, The Dividend Tracker"
-      ctaButtonTitle="Start to manage"
+      replacesText="All existing solutions. Advanced customization of user interface - our core feature!"
+      ctaButtonTitle="Customize"
     >
       <svg
         class={style.customize_previewSvg}

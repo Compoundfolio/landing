@@ -12,12 +12,11 @@ export const RouterHead = component$(() => {
     <>
       <title>{head.title}</title>
       <link rel="canonical" href="https://compoundfolio.com/" />
-      <link
-        rel="sitemap"
-        type="application/xml"
-        title="Sitemap"
-        href="/sitemap.xml"
+      <meta
+        content="dividends, portfolio tracker, investment portfolio tracker, dividends tracking app, dividend tracking app, asset management app, investment helper"
+        name="keywords"
       />
+
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="icon" href="/fav.png" />
 

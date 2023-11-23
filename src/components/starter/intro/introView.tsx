@@ -2,7 +2,7 @@ import { $, component$ } from "@builder.io/qwik";
 import styles from "./introView.module.css";
 import ComparisonSlider from "./comparisonSlider";
 import bgImageUrl from "../../../../public/images/bg.avif";
-import GlobeImage from "../../../../public/images/globe.avif?jsx";
+import globeImage from "../../../../public/images/globe.avif";
 import { APP_LINK } from "~/consts";
 
 export default component$(() => {
@@ -219,8 +219,11 @@ export default component$(() => {
           </div>
           <ComparisonSlider />
         </div>
-        <GlobeImage
+        <img
+          width={100}
+          height={100}
           loading="eager"
+          src={globeImage}
           class={styles.globe}
           alt="Globe background image"
         />

@@ -15,7 +15,7 @@ export default component$(() => {
           {FEATURE_WALL_BRICKS.map(({ title, description, icon }) => (
             <div key={title} class={styles.featureWall__item}>
               {icon}
-              <h3 class={styles.featureWall__item_title}>{title}</h3>
+              <h2 class={styles.featureWall__item_title}>{title}</h2>
               <span class={styles.featureWall__item_description}>
                 {description}
               </span>

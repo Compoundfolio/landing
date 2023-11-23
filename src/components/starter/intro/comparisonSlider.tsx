@@ -32,6 +32,7 @@ export default component$(() => {
             max="100"
             value="50"
             id="before_after_slider"
+            aria-labelledby="comparison slider"
           />
         </div>
         <svg

@@ -6,7 +6,7 @@ import resetStyles from "./reset.css?inline";
 import globalStyles from "./global.css?inline";
 
 const REVALIDATE_MILLISECONDS_TIME = 60 * 60 * 24 * 7;
-const MAX_SERVER_SIDE_REVALIDATION_IN_SECONDS = 5;
+const MAX_SERVER_SIDE_REVALIDATION_IN_SECONDS = 31536000; // 365 days
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   // Control caching for this request for best performance and to reduce hosting costs:

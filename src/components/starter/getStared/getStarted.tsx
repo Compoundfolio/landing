@@ -24,6 +24,7 @@ export default component$(() => {
           <DividendsModalImage
             loading="eager"
             class={styles.getStarted_dividendsModalImage}
+            alt="Dividends page"
           />
           <div class={styles.getStarted_ctaButton}>
             <RhombusButton />

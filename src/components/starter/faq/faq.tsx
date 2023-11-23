@@ -9,7 +9,7 @@ export default component$(() => {
     <>
       <div class="flex gap-32px relative screenViewContentMaxWidth container">
         <div class="flex flex-col">
-          <h1 class="faq_title">Frequently Asked Questions</h1>
+          <h2 class="faq_title">Frequently Asked Questions</h2>
           <svg
             class="faq_wtfIcon"
             width="748"

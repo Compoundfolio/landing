@@ -42,6 +42,10 @@ em.feature_description > b {
   color: #AAABC2;
 }
 
+.feature_description_replaces {
+  font-weight: bold;
+}
+
 .feature_callToActionButton {
   color: var(--el-on-background-strong, #FFF);
   font-size: 24px;

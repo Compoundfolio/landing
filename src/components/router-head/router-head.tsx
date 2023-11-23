@@ -1,4 +1,4 @@
-import { useDocumentHead, useLocation } from "@builder.io/qwik-city";
+import { useDocumentHead } from "@builder.io/qwik-city";
 
 import { component$ } from "@builder.io/qwik";
 
@@ -7,13 +7,17 @@ import { component$ } from "@builder.io/qwik";
  */
 export const RouterHead = component$(() => {
   const head = useDocumentHead();
-  const loc = useLocation();
 
   return (
     <>
       <title>{head.title}</title>
-
-      <link rel="canonical" href={loc.url.href} />
+      <link rel="canonical" href="https://compoundfolio.com/" />
+      <link
+        rel="sitemap"
+        type="application/xml"
+        title="Sitemap"
+        href="/sitemap.xml"
+      />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="icon" href="/fav.png" />
 

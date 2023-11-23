@@ -7,12 +7,12 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Compoundfolio - advanced investment tracker",
+  title: "Compoundfolio - Track your investments without Spreadsheets!",
   meta: [
     {
       name: "description",
       content:
-        "Compoundfolio is investment tracker for advanced investors. Benefit from tracking stocks form 70+ exchanges, managing dividend and real estate cas-flow. Setup the app for your needs. Join the community of aware investors!",
+        "Compoundfolio is investment tracker for advanced investors. Benefit from tracking stocks form 70+ exchanges, managing dividend and real estate cas-flow.",
     },
   ],
 };

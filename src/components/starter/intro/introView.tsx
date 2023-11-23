@@ -219,7 +219,11 @@ export default component$(() => {
           </div>
           <ComparisonSlider />
         </div>
-        <GlobeImage loading="eager" class={styles.globe} />
+        <GlobeImage
+          loading="eager"
+          class={styles.globe}
+          alt="Globe background image"
+        />
       </div>
       <svg
         class={styles.heroBgLines}

@@ -12,6 +12,12 @@ export default component$(() => {
     <QwikCityProvider>
       <head>
         <meta charSet="utf-8" />
+        <QwikPartytown forward={["dataLayer.push"]} />
+        <script
+          async
+          type="text/partytown"
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_KEY}`}
+        />
         <link rel="manifest" href="/manifest.json" />
         <link
           rel="preconnect"
@@ -47,12 +53,6 @@ export default component$(() => {
         </noscript>
         <RouterHead />
         <ServiceWorkerRegister />
-        <QwikPartytown forward={["dataLayer.push"]} />
-        <script
-          async
-          type="text/partytown"
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_KEY}`}
-        />
       </head>
 
       <body lang="en">

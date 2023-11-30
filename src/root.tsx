@@ -1,4 +1,4 @@
-import { component$ } from "@builder.io/qwik";
+import { $, component$ } from "@builder.io/qwik";
 import {
   QwikCityProvider,
   RouterOutlet,
@@ -7,6 +7,22 @@ import {
 import { RouterHead } from "./components/router-head/router-head";
 
 export default component$(() => {
+  const initGoogleAnalytics = $(() => {
+    // @ts-ignore
+    window.dataLayer = window.dataLayer || [];
+    // @ts-ignore
+    function gtag() {
+      // @ts-ignore
+      // eslint-disable-next-line prefer-rest-params
+      dataLayer.push(arguments);
+    }
+    // @ts-ignore
+    gtag("js", new Date());
+    // @ts-ignore
+    gtag("config", `${process.env.GOOGLE_ANALYTICS_KEY}`);
+    alert("wht");
+  });
+
   return (
     <QwikCityProvider>
       <head>
@@ -47,8 +63,27 @@ export default component$(() => {
         <RouterHead />
         <ServiceWorkerRegister />
       </head>
+
       <body lang="en">
         <RouterOutlet />
+        {/* Google tag (gtag.js) */}
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_KEY}`}
+        ></script>
+
+        <script onLoad$={initGoogleAnalytics}></script>
+        <script
+          dangerouslySetInnerHTML={`
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "${process.env.GOOGLE_ANALYTICS_KEY}");
+        alert("wht");
+        `}
+        />
       </body>
     </QwikCityProvider>
   );

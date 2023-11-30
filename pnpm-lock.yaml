@@ -6,6 +6,9 @@ dependencies:
     version: 3.12.2
 
 devDependencies:
+  '@builder.io/partytown':
+    specifier: ^0.8.0
+    version: 0.8.1
   '@builder.io/qwik':
     specifier: ^1.2.11
     version: 1.2.11(undici@5.22.1)
@@ -51,6 +54,12 @@ packages:
   /@aashutoshrathi/word-wrap@1.2.6:
     resolution: {integrity: sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==}
     engines: {node: '>=0.10.0'}
+    dev: true
+
+  /@builder.io/partytown@0.8.1:
+    resolution: {integrity: sha512-p4xhEtQCPe8YFJ8e7KT9RptnT+f4lvtbmXymbp1t0bLp+USkNMTxrRMNc3Dlr2w2fpxyX7uA0CyAeU3ju84O4A==}
+    engines: {node: '>=18.0.0'}
+    hasBin: true
     dev: true
 
   /@builder.io/qwik-city@1.2.11:

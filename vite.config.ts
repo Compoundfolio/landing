@@ -16,6 +16,7 @@ export default defineConfig(() => {
     preview: {
       headers: {
         "Cache-Control": "public, max-age=31536000",
+        "Strict-Transport-Security": "max-age=31536000"
       },
     },
   };

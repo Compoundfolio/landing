@@ -16,7 +16,8 @@ export default component$(() => {
         <script
           async
           type="text/partytown"
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_KEY}`}
+          // src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_KEY}`}
+          src={`https://www.googletagmanager.com/gtag/js?id=G-GCTC0QN3MS`}
         />
         <link rel="manifest" href="/manifest.json" />
         <link

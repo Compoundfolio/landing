@@ -19,5 +19,9 @@ export default defineConfig(() => {
         "Strict-Transport-Security": "max-age=31536000"
       },
     },
+    sitemap: {
+      hostname: 'https://compoundfolio.com/',
+      lastmodDateOnly: false
+    }
   };
 });

@@ -11,7 +11,6 @@ export default component$(() => {
   return (
     <QwikCityProvider>
       <head>
-        <meta charSet="utf-8" />
         <QwikPartytown forward={["dataLayer.push"]} />
         <script
           async
@@ -19,6 +18,7 @@ export default component$(() => {
           // src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_KEY}`}
           src={`https://www.googletagmanager.com/gtag/js?id=G-GCTC0QN3MS`}
         />
+        <meta charSet="utf-8" />
         <link rel="manifest" href="/manifest.json" />
         <link
           rel="preconnect"

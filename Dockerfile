@@ -1,6 +1,7 @@
 FROM node:20
 WORKDIR /app
 COPY package*.json ./
+RUN npm cache clean c--force
 RUN npm install --save --legacy-peer-deps
 COPY . .
 RUN npm run build

@@ -11,14 +11,25 @@ export default component$(() => {
   return (
     <QwikCityProvider>
       <head>
+        <meta charSet="utf-8" />
+        <link rel="manifest" href="/manifest.json" />
+        <QwikPartytown forward={["gtag", "dataLayer.push"]} />
+        <script
+          type="text/partytown"
+          dangerouslySetInnerHTML={`
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function() {
+            dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
+          gtag('config', 'G-GCTC0QN3MS');
+          `}
+        />
         <script
           async
           type="text/partytown"
-          src={`https://www.googletagmanager.com/gtag/js?id=G-GCTC0QN3MS`}
+          src="https://www.googletagmanager.com/gtag/js?id=G-GCTC0QN3MS"
         />
-        <QwikPartytown forward={["dataLayer.push"]} />
-        <meta charSet="utf-8" />
-        <link rel="manifest" href="/manifest.json" />
         <link
           rel="preconnect"
           href="https://fonts.googleapis.com"

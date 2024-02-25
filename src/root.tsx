@@ -5,19 +5,39 @@ import {
   ServiceWorkerRegister,
 } from "@builder.io/qwik-city";
 import { RouterHead } from "./components/router-head/router-head";
-import { QwikPartytown } from "./components/partytown/partytown";
+// import { QwikPartytown } from "./components/partytown/partytown";
 
 export default component$(() => {
+  const initGoogleAnalytics = () => {
+    //@ts-ignore
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      //@ts-ignore
+      dataLayer.push(arguments);
+    }
+    //@ts-ignore
+    gtag("js", new Date());
+    //@ts-ignore
+    gtag("config", "G-GCTC0QN3MS");
+  };
+
   return (
     <QwikCityProvider>
       <head>
-        <QwikPartytown forward={["dataLayer.push"]} />
+        {/* <QwikPartytown forward={["dataLayer.push"]} />
         <script
           async
           type="text/partytown"
           // src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_KEY}`}
           src={`https://www.googletagmanager.com/gtag/js?id=G-GCTC0QN3MS`}
-        />
+        /> */}
+        {/* <!-- Google tag (gtag.js) --> */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-GCTC0QN3MS"
+        ></script>
+        {/* @ts-ignore */}
+        <script>{initGoogleAnalytics()}</script>
         <meta charSet="utf-8" />
         <link rel="manifest" href="/manifest.json" />
         <link

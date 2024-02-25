@@ -459,7 +459,7 @@ export default component$(() => {
               width="200"
               height="254"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -505,7 +505,7 @@ export default component$(() => {
               width="56"
               height="56"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -540,7 +540,7 @@ export default component$(() => {
               width="93.7471"
               height="93.7471"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -575,7 +575,7 @@ export default component$(() => {
               width="90.3105"
               height="90.3103"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -610,7 +610,7 @@ export default component$(() => {
               width="86.874"
               height="86.8735"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -645,7 +645,7 @@ export default component$(() => {
               width="126.669"
               height="34.7098"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -680,7 +680,7 @@ export default component$(() => {
               width="65.8926"
               height="17.87"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -715,7 +715,7 @@ export default component$(() => {
               width="44.0557"
               height="17.8"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -750,7 +750,7 @@ export default component$(() => {
               width="64.2822"
               height="20.88"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -785,7 +785,7 @@ export default component$(() => {
               width="200"
               height="254"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -831,7 +831,7 @@ export default component$(() => {
               width="56"
               height="56"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -866,7 +866,7 @@ export default component$(() => {
               width="93.7471"
               height="93.7471"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -901,7 +901,7 @@ export default component$(() => {
               width="90.3105"
               height="90.3103"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -936,7 +936,7 @@ export default component$(() => {
               width="86.874"
               height="86.8735"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -971,7 +971,7 @@ export default component$(() => {
               width="126.669"
               height="34.7098"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1006,7 +1006,7 @@ export default component$(() => {
               width="65.8926"
               height="17.87"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1041,7 +1041,7 @@ export default component$(() => {
               width="44.0557"
               height="17.8"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1076,7 +1076,7 @@ export default component$(() => {
               width="64.2822"
               height="20.88"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1111,7 +1111,7 @@ export default component$(() => {
               width="200"
               height="254"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1168,7 +1168,7 @@ export default component$(() => {
               width="56.2373"
               height="56.2375"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1203,7 +1203,7 @@ export default component$(() => {
               width="93.7471"
               height="93.7473"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1238,7 +1238,7 @@ export default component$(() => {
               width="90.3105"
               height="90.3103"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1273,7 +1273,7 @@ export default component$(() => {
               width="86.874"
               height="86.8735"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1308,7 +1308,7 @@ export default component$(() => {
               width="107.147"
               height="19.13"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1343,7 +1343,7 @@ export default component$(() => {
               width="85.5225"
               height="15.4601"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1378,7 +1378,7 @@ export default component$(() => {
               width="66.1279"
               height="22.406"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1413,7 +1413,7 @@ export default component$(() => {
               width="44.0557"
               height="17.8"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1448,7 +1448,7 @@ export default component$(() => {
               width="70.0732"
               height="15.4601"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              color-interpolation-filters="s-rGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1727,22 +1727,22 @@ export default component$(() => {
           </g>
           <rect x="439" y="171" width="24" height="24" fill="url(#pattern4)" />
           <defs>
-            <filter id="filter0_f_819_9717" x="0" y="171" width="496" height="374" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter0_f_819_9717" x="0" y="171" width="496" height="374" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
               <feGaussianBlur stdDeviation="62" result="effect1_foregroundBlur_819_9717" />
             </filter>
-            <filter id="filter1_f_819_9717" x="594" y="171" width="436" height="374" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter1_f_819_9717" x="594" y="171" width="436" height="374" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
               <feGaussianBlur stdDeviation="62" result="effect1_foregroundBlur_819_9717" />
             </filter>
-            <filter id="filter2_f_819_9717" x="83" y="0" width="882" height="254" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter2_f_819_9717" x="83" y="0" width="882" height="254" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
               <feGaussianBlur stdDeviation="38" result="effect1_foregroundBlur_819_9717" />
             </filter>
-            <filter id="filter3_d_819_9717" x="287" y="92" width="200" height="254" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter3_d_819_9717" x="287" y="92" width="200" height="254" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset dy="4" />
@@ -1755,7 +1755,7 @@ export default component$(() => {
             <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
               <use xlink:href="#image0_819_9717" transform="scale(0.000976562)" />
             </pattern>
-            <filter id="filter4_d_819_9717" x="358" y="136" width="56" height="56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter4_d_819_9717" x="358" y="136" width="56" height="56" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset dy="4" />
@@ -1765,7 +1765,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter5_d_819_9717" x="347.253" y="113" width="93.7471" height="93.7471" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter5_d_819_9717" x="347.253" y="113" width="93.7471" height="93.7471" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset />
@@ -1775,7 +1775,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter6_d_819_9717" x="336.873" y="116.437" width="90.3105" height="90.3103" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter6_d_819_9717" x="336.873" y="116.437" width="90.3105" height="90.3103" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset />
@@ -1785,7 +1785,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter7_d_819_9717" x="330" y="119.874" width="86.874" height="86.8735" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter7_d_819_9717" x="330" y="119.874" width="86.874" height="86.8735" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset />
@@ -1795,7 +1795,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter8_d_819_9717" x="322.294" y="202.402" width="126.669" height="34.7098" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter8_d_819_9717" x="322.294" y="202.402" width="126.669" height="34.7098" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset dy="4" />
@@ -1805,7 +1805,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter9_d_819_9717" x="352.382" y="313.2" width="65.8926" height="17.87" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter9_d_819_9717" x="352.382" y="313.2" width="65.8926" height="17.87" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset dy="4" />
@@ -1815,7 +1815,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter10_d_819_9717" x="367.748" y="256.2" width="44.0557" height="17.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter10_d_819_9717" x="367.748" y="256.2" width="44.0557" height="17.8" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset dy="4" />
@@ -1825,7 +1825,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter11_d_819_9717" x="348.7" y="275.66" width="64.2822" height="20.88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter11_d_819_9717" x="348.7" y="275.66" width="64.2822" height="20.88" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset dy="4" />
@@ -1835,7 +1835,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter12_d_819_9717" x="568" y="92" width="200" height="254" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter12_d_819_9717" x="568" y="92" width="200" height="254" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset dy="4" />
@@ -1848,7 +1848,7 @@ export default component$(() => {
             <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
               <use xlink:href="#image0_819_9717" transform="scale(0.000976562)" />
             </pattern>
-            <filter id="filter13_d_819_9717" x="639" y="136" width="56" height="56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter13_d_819_9717" x="639" y="136" width="56" height="56" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset dy="4" />
@@ -1858,7 +1858,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter14_d_819_9717" x="628.253" y="113" width="93.7471" height="93.7471" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter14_d_819_9717" x="628.253" y="113" width="93.7471" height="93.7471" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset />
@@ -1868,7 +1868,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter15_d_819_9717" x="617.873" y="116.437" width="90.3105" height="90.3103" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter15_d_819_9717" x="617.873" y="116.437" width="90.3105" height="90.3103" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset />
@@ -1878,7 +1878,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter16_d_819_9717" x="611" y="119.874" width="86.874" height="86.8735" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter16_d_819_9717" x="611" y="119.874" width="86.874" height="86.8735" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset />
@@ -1888,7 +1888,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter17_d_819_9717" x="603.294" y="202.402" width="126.669" height="34.7098" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter17_d_819_9717" x="603.294" y="202.402" width="126.669" height="34.7098" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset dy="4" />
@@ -1898,7 +1898,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter18_d_819_9717" x="633.382" y="313.2" width="65.8926" height="17.87" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter18_d_819_9717" x="633.382" y="313.2" width="65.8926" height="17.87" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset dy="4" />
@@ -1908,7 +1908,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter19_d_819_9717" x="648.748" y="256.2" width="44.0557" height="17.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter19_d_819_9717" x="648.748" y="256.2" width="44.0557" height="17.8" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset dy="4" />
@@ -1918,7 +1918,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter20_d_819_9717" x="629.7" y="275.66" width="64.2822" height="20.88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter20_d_819_9717" x="629.7" y="275.66" width="64.2822" height="20.88" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset dy="4" />
@@ -1928,7 +1928,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter21_d_819_9717" x="427" y="100" width="200" height="254" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter21_d_819_9717" x="427" y="100" width="200" height="254" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset dy="4" />
@@ -1944,7 +1944,7 @@ export default component$(() => {
             <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
               <use xlink:href="#image1_819_9717" transform="matrix(0.000853585 0 0 0.000435161 -0.0023348 0)" />
             </pattern>
-            <filter id="filter22_d_819_9717" x="497.881" y="143.881" width="56.2373" height="56.2375" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter22_d_819_9717" x="497.881" y="143.881" width="56.2373" height="56.2375" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset dy="4" />
@@ -1954,7 +1954,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter23_d_819_9717" x="487.254" y="121.04" width="93.7471" height="93.7473" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter23_d_819_9717" x="487.254" y="121.04" width="93.7471" height="93.7473" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset />
@@ -1964,7 +1964,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter24_d_819_9717" x="476.866" y="124.417" width="90.3105" height="90.3103" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter24_d_819_9717" x="476.866" y="124.417" width="90.3105" height="90.3103" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset />
@@ -1974,7 +1974,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter25_d_819_9717" x="469.983" y="127.811" width="86.874" height="86.8735" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter25_d_819_9717" x="469.983" y="127.811" width="86.874" height="86.8735" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset />
@@ -1984,7 +1984,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter26_d_819_9717" x="473.781" y="216.982" width="107.147" height="19.13" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter26_d_819_9717" x="473.781" y="216.982" width="107.147" height="19.13" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset dy="4" />
@@ -1994,7 +1994,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter27_d_819_9717" x="452.05" y="322.58" width="85.5225" height="15.4601" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter27_d_819_9717" x="452.05" y="322.58" width="85.5225" height="15.4601" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset dy="4" />
@@ -2004,7 +2004,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter28_d_819_9717" x="534.84" y="321.66" width="66.1279" height="22.406" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter28_d_819_9717" x="534.84" y="321.66" width="66.1279" height="22.406" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset dy="4" />
@@ -2014,7 +2014,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter29_d_819_9717" x="546.748" y="296.2" width="44.0557" height="17.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter29_d_819_9717" x="546.748" y="296.2" width="44.0557" height="17.8" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset dy="4" />
@@ -2024,7 +2024,7 @@ export default component$(() => {
               <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_819_9717" />
               <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_819_9717" result="shape" />
             </filter>
-            <filter id="filter30_d_819_9717" x="462.04" y="297.58" width="70.0732" height="15.4601" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <filter id="filter30_d_819_9717" x="462.04" y="297.58" width="70.0732" height="15.4601" filterUnits="userSpaceOnUse" color-interpolation-filters="s-rGB">
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset dy="4" />

@@ -2743,7 +2743,7 @@ export default component$(() => {
                   width="630.042"
                   height="24.4539"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  color-interpolation-filters="s-rGB"
                 >
                   <feFlood flood-opacity="0" result="BackgroundImageFix" />
                   <feColorMatrix
@@ -2778,7 +2778,7 @@ export default component$(() => {
                   width="150.071"
                   height="24.4539"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  color-interpolation-filters="s-rGB"
                 >
                   <feFlood flood-opacity="0" result="BackgroundImageFix" />
                   <feColorMatrix
@@ -2813,7 +2813,7 @@ export default component$(() => {
                   width="501.538"
                   height="41.7812"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  color-interpolation-filters="s-rGB"
                 >
                   <feFlood flood-opacity="0" result="BackgroundImageFix" />
                   <feColorMatrix

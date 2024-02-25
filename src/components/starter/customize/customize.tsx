@@ -114,7 +114,7 @@ export default component$(() => {
             width="25"
             height="25"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            color-interpolation-filters="s-rGB"
           >
             <feFlood flood-opacity="0" result="BackgroundImageFix" />
             <feColorMatrix
@@ -149,7 +149,7 @@ export default component$(() => {
             width="25"
             height="25"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            color-interpolation-filters="s-rGB"
           >
             <feFlood flood-opacity="0" result="BackgroundImageFix" />
             <feColorMatrix
@@ -184,7 +184,7 @@ export default component$(() => {
             width="25"
             height="25"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            color-interpolation-filters="s-rGB"
           >
             <feFlood flood-opacity="0" result="BackgroundImageFix" />
             <feColorMatrix
@@ -219,7 +219,7 @@ export default component$(() => {
             width="25"
             height="25"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            color-interpolation-filters="s-rGB"
           >
             <feFlood flood-opacity="0" result="BackgroundImageFix" />
             <feColorMatrix
@@ -254,7 +254,7 @@ export default component$(() => {
             width="170"
             height="164"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            color-interpolation-filters="s-rGB"
           >
             <feFlood flood-opacity="0" result="BackgroundImageFix" />
             <feColorMatrix
@@ -289,7 +289,7 @@ export default component$(() => {
             width="188"
             height="182"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            color-interpolation-filters="s-rGB"
           >
             <feFlood flood-opacity="0" result="BackgroundImageFix" />
             <feColorMatrix

@@ -42,7 +42,7 @@ export default component$(() => {
                 width="747.76"
                 height="793.301"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                color-interpolation-filters="s-rGB"
               >
                 <feFlood flood-opacity="0" result="BackgroundImageFix" />
                 <feBlend
@@ -63,7 +63,7 @@ export default component$(() => {
                 width="208.157"
                 height="271.453"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                color-interpolation-filters="s-rGB"
               >
                 <feFlood flood-opacity="0" result="BackgroundImageFix" />
                 <feBlend
